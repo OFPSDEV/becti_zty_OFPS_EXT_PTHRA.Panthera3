@@ -29,20 +29,20 @@ _b = _b + [[2, 3, 6]];
 _r = _r + [[[800,4500], [800,7500], [800,10500], [800,20500]]];
 
 _c = _c + ["CUP_O_BM21_RU"];  
-_m = _m + [[""]];  //need ural rocket ammo classs name here...
+_m = _m + [["CUP_40Rnd_GRAD_HE"]];  
+_b = _b + [[2, 3, 6]];
+_r = _r + [[[1487,8564], [1707,9831], [2107,12137], [2738,15773]]];
+
+_c = _c + ["CUP_B_M270_HE_USMC"];  
+_m = _m + [["CUP_12Rnd_MLRS_HE"]];  
 _b = _b + [[2, 3, 6]];
 _r = _r + [[[1487,8564], [1707,9831], [2107,12137], [2738,15773]]];
 
 
-_c = _c + ["CUP_B_M270_HE_USMC"];  
-_m = _m + [[""]];  //need m270 rocket ammo class name here...
-_b = _b + [[2, 3, 6]];
-_r = _r + [[[1487,8564], [1707,9831], [2107,12137], [2738,15773]]];  //need to adjust ranges
-
-
-
-
-
+_c = _c + ["CUP_B_M252_USMC"];  
+_m = _m + [["8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_Flare_white","8Rnd_82mm_Mo_Smoke_white"]];  
+_b = _b + [[1, 2, 4, 8]];
+_r = _r + [[[100,2500], [100,3000], [100,3500], [100,4000]]];
 
 
 
