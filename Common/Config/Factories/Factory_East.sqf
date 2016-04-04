@@ -218,7 +218,7 @@ _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
 _u = _u		+ ["sfp_gruppbat"];
 _u = _u		+ ["sfp_rbb_norrkoping"];
-_u = _u		+ ["ivory_fregata"];
+/*_u = _u		+ ["ivory_fregata"];*/
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
