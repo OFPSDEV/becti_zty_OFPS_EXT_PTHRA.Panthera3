@@ -111,11 +111,12 @@ addons[]=
 	"bwi_a3_t6",
 	"UCSV",
 	"usaf_b1b",
-	"USAF_B2",
-	"Werthles_WHK",
 	"cba_main",
 	"sfp_norrkoping",
-	"sfp_gruppbat"
+	"sfp_gruppbat",
+	"ivory_fregata",
+	"sfp_torebodahangar",
+	"sfp_houses_mil_shed"
 };
 randomSeed=12242137;
 class ScenarioData

@@ -649,7 +649,7 @@ _s = _s + [""];
 _c = _c + ['O_MBT_02_arty_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [80000];
+_o = _o + [100000];
 _t = _t + [30];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_HEAVY];
@@ -1041,7 +1041,6 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-/*  REMOVED UNTIL HIT POINT ISSUE RESOLVED
 _c = _c + ['globemaster_c17_Qatar'];
 _p = _p + [''];
 _n = _n + [''];
@@ -1050,7 +1049,6 @@ _t = _t + [50];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
-*/
 
 _c = _c + ['usaf_b1b'];
 _p = _p + [''];
@@ -1088,7 +1086,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-/*_c = _c + ['LDL_C130J'];
+_c = _c + ['LDL_C130J'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [40000];
@@ -1096,7 +1094,6 @@ _t = _t + [50];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
-*/
 
 _c = _c + ['CUP_O_Ka50_SLA'];
 _p = _p + [''];
@@ -1315,6 +1312,15 @@ _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
 _c = _c + ['sfp_rbb_norrkoping'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [40000];
+_t = _t + [25];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_NAVAL];
+_s = _s + [""];
+
+_c = _c + ['ivory_fregata'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [40000];

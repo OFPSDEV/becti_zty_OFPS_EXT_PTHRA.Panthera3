@@ -78,7 +78,8 @@ _type_killer = typeOf _killer;
 _isplayable_killed = (_group_killed) call CTI_CO_FNC_IsGroupPlayable;
 _isplayable_killer = (_group_killer) call CTI_CO_FNC_IsGroupPlayable;
 _isplayer_killer = if (isPlayer leader _group_killer) then {true} else {false};
-_isplayer_killed = if (isPlayer leader _group_killed) then {true} else {false};
+_isplayer_killed = if (isPlayer _killed) then {true} else {false};
+_isplayer_killed_leader = if (isPlayer leader _group_killed) then {true} else {false};
 
 _renegade_killer = if (_side_killer == sideEnemy) then {true} else {false};
 
@@ -131,9 +132,9 @@ if (!isNil '_var' && _isplayable_killer) then {
 				} forEach _award_groups;
 				//--- PVP Award
 				if (_killer != leader _group_killed) then {
-					if (_isplayable_killed && _isplayer_killed) then {
+					if (_isplayable_killed && _isplayer_killed && _isplayer_killed_leader) then {
 						_pvpname = "PLAYER NAME HERE";
-						_pvpbounty = 666;  //reduced until bug is fixed...
+						_pvpbounty = 1500;  //reduced until bug is fixed...
 						{
 							if (_x call CTI_CO_FNC_IsGroupPlayable) then {
 								if (isPlayer leader _x) then {[["CLIENT", leader _x], "Client_AwardBounty", [_var_name, _pvpbounty]] call CTI_CO_FNC_NetSend} else {[_x, _side_killer, _pvpbounty] call CTI_CO_FNC_ChangeFunds};

@@ -179,9 +179,9 @@ _u = _u		+ ['B_UCSV_02'];
 _u = _u		+ ['bwi_a3_at6b'];
 _u = _u		+ ['bwi_a3_t6a'];
 _u = _u		+ ['bwi_a3_t6c'];
-_u = _u		+ ['USAF_AC130U'];
+_u = _u		+ ['LDL_C130J'];
 _u = _u		+ ['globemaster_c17_NATO'];
-//_u = _u		+ ['usaf_b2'];
+_u = _u		+ ['usaf_b1b'];
 
 _u = _u		+ ['CUP_C_C47_CIV'];
 _u = _u		+ ['CUP_B_AH64D_MR_USA'];
@@ -232,6 +232,7 @@ _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
 _u = _u		+ ["sfp_gruppbat"];
 _u = _u		+ ["sfp_rbb_norrkoping"];
+_u = _u		+ ["ivory_fregata"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
@@ -257,6 +258,7 @@ _u = _u		+ ['C_Kart_01_F'];
 _u = _u		+ ['C_Hatchback_01_sport_F'];
 _u = _u		+ ['C_Hatchback_01_F'];
 _u = _u		+ ['B_G_Offroad_01_F'];
+_u = _u		+ ['B_G_Offroad_01_armed_F'];
 _u = _u	    + ["B_Boat_Transport_01_F"];
 
 

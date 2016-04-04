@@ -171,7 +171,7 @@ _u = _u		+ ['bwi_a3_t6a_5'];
 _u = _u		+ ['bwi_a3_at6b_2'];
 _u = _u		+ ['LDL_C130J'];
 _u = _u		+ ['globemaster_c17_Qatar'];
-//_u = _u		+ ['usaf_b1b'];
+_u = _u		+ ['usaf_b1b'];
 
 _u = _u		+ ['CUP_C_DC3_CIV'];
 _u = _u		+ ['CUP_O_Ka50_SLA'];
@@ -218,6 +218,7 @@ _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
 _u = _u		+ ["sfp_gruppbat"];
 _u = _u		+ ["sfp_rbb_norrkoping"];
+_u = _u		+ ["ivory_fregata"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
