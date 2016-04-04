@@ -146,7 +146,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=148;
+		items=147;
 		class Item0
 		{
 			dataType="Marker";
@@ -712,7 +712,7 @@ class Mission
 			colorName="ColorBlack";
 			a=1050;
 			b=5;
-			angle=330.29828;
+			angle=330.29825;
 			id=61;
 		};
 		class Item62
@@ -4199,191 +4199,6 @@ class Mission
 					};
 				};
 				nAttributes=1;
-			};
-		};
-		class Item147
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={8621.2285,30.747013,24847.482};
-			};
-			id=199;
-			type="Werthles_moduleWHM";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Werthles_moduleWHM_Ignores";
-					expression="_this setVariable ['Ignores',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="C_scientist_F,O_G_officer_F,B_officer_F,UAV,UGV_01_base_F,O_UCSV_01,B_UCSV_01,B_UCSV_02";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Werthles_moduleWHM_Debug";
-					expression="_this setVariable ['Debug',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="Werthles_moduleWHM_Wait";
-					expression="_this setVariable ['Wait',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=5;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="Werthles_moduleWHM_Advanced";
-					expression="_this setVariable ['Advanced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="Werthles_moduleWHM_Units";
-					expression="_this setVariable ['Units',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="0";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="Werthles_moduleWHM_Pause";
-					expression="_this setVariable ['Pause',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=3;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="Werthles_moduleWHM_Delay";
-					expression="_this setVariable ['Delay',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=5;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="Werthles_moduleWHM_Repeating";
-					expression="_this setVariable ['Repeating',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="Werthles_moduleWHM_Report";
-					expression="_this setVariable ['Report',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=9;
 			};
 		};
 	};
