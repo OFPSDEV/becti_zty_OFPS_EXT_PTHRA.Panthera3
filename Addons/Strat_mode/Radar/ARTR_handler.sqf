@@ -16,7 +16,7 @@ _weap=_this select 1;
 _ammo=_this select 4;
 _proj=_this select 6;
 
-if !(_weap == "mortar_155mm_AMOS" || _weap == "rockets_230mm_GAT" || _weap == "mortar_82mm") exitWith {false};
+if !(_weap == "mortar_155mm_AMOS" || _weap == "rockets_230mm_GAT" || _weap == "mortar_82mm" || _weap == "CUP_40Rnd_GRAD_HE" || _weap == "CUP_12Rnd_MLRS_HE") exitWith {false};
 
 //diag_log format [":: ART Radar ::%2:: starting handling %1", _this,_proj];
 {

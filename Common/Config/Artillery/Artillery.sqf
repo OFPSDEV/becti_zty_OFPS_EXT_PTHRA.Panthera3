@@ -40,7 +40,7 @@ _r = _r + [[[800,4500], [800,7500], [800,10500], [800,20500]]];
 
 
 _c = _c + ["CUP_B_M252_USMC"];  
-_m = _m + [["8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_Flare_white","8Rnd_82mm_Mo_Smoke_white"]];  
+_m = _m + [["8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_Flare_white","8Rnd_82mm_Mo_Smoke_white"]];  
 _b = _b + [[1, 2, 4, 8]];
 _r = _r + [[[100,2500], [100,3000], [100,3500], [100,4000]]];
 
