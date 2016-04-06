@@ -30,6 +30,7 @@ CTI_Init_Client=false;
 CTI_InitTowns=false;
 CTI_Init_Server =false;
 CTI_Init_Strat=false;
+CTI_Init_HC=false;
 
 //--- Determine which machine is running this init script
 CTI_IsHostedServer = if (isServer && !isDedicated) then {true} else {false};
@@ -131,7 +132,7 @@ if (CTI_IsHeadless) then {
 
 //--- Set the group ID
 
-waitUntil {CTI_Init_Client || CTI_Init_Server};
+waitUntil {CTI_Init_Client || CTI_Init_Server || CTI_Init_HC};
 0 execVM "Addons\Strat_mode\init.sqf";
 waitUntil {CTI_Init_Strat};
 0 execVM "changelog.sqf";
@@ -168,4 +169,4 @@ player addMPEventhandler ["MPRespawn", {player setCustomAimCoef 0.1;}];
 };  
 
 
-addMissionEventHandler ["Loaded",{execVM "Client\Init\Init_Client.sqf";execVM "Addons\strat_mode\init.sqf";}];
+//addMissionEventHandler ["Loaded",{execVM "Client\Init\Init_Client.sqf";execVM "Addons\strat_mode\init.sqf";}];
