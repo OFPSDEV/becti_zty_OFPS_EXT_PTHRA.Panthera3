@@ -9,7 +9,7 @@ item4[] = {"Held_by_Occupati",4,218,-100.000000,-100.000000,0.000000,-50.000000,
 item5[] = {"Gameover",8,218,-250.000000,-200.000000,-150.000000,-150.000000,0.000000,"Gameover"};
 item6[] = {"Enemy_Near_",2,250,-100.000000,0.000000,0.000000,50.000000,0.000000,"Enemy Near?"};
 item7[] = {"Not_held_by_Occu",4,218,50.000000,-200.000000,150.000000,-150.000000,1.000000,"Not held by" \n "Occupation"};
-item8[] = {"Occupation_Timeout",2,4346,175.000000,100.000000,275.000000,150.000000,0.000000,"Occupation" \n "Timeout?"};
+item8[] = {"Occupation_Timeout",2,250,175.000000,100.000000,275.000000,150.000000,0.000000,"Occupation" \n "Timeout?"};
 item9[] = {"Active",8,218,175.000000,0.000000,275.000000,50.000000,0.000000,"Active"};
 item10[] = {"Inactive",4,218,175.000000,-200.000000,275.000000,-150.000000,1.000000,"Inactive"};
 item11[] = {"Still_active",8,218,300.000000,25.000000,400.000000,75.000000,0.000000,"Still active"};
@@ -19,7 +19,7 @@ item14[] = {"Cleanup",2,250,425.000000,-400.000000,525.000000,-350.000000,0.0000
 item15[] = {"Occupation_Active",2,250,50.000000,-100.000000,150.000000,-50.000000,0.000000,"Occupation" \n "Active?"};
 item16[] = {"Contact",8,218,-100.000000,100.000000,0.000000,150.000000,0.000000,"Contact"};
 item17[] = {"Clear",4,218,50.000000,0.000000,150.000000,50.000000,1.000000,"Clear"};
-item18[] = {"Create",2,250,-400.000000,200.000000,-300.000000,250.000000,0.000000,"Create"};
+item18[] = {"Create",2,4346,-400.000000,200.000000,-300.000000,250.000000,0.000000,"Create"};
 item19[] = {"Occupation_Active_1",2,250,-100.000000,200.000000,0.000000,250.000000,0.000000,"Occupation" \n "Active?"};
 item20[] = {"Inactive",4,218,-250.000000,200.000000,-150.000000,250.000000,1.000000,"Inactive"};
 item21[] = {"Active",4,218,175.000000,200.000000,275.000000,250.000000,2.000000,"Active"};
@@ -62,8 +62,8 @@ link30[] = {24,1};
 link31[] = {24,26};
 link32[] = {25,24};
 link33[] = {26,24};
-globals[] = {25.000000,1,0,0,0,640,480,1,172,6316128,1,-533.074707,741.001282,387.194458,-1161.027588,725,881,1};
-window[] = {2,-1,-1,-32000,-32000,737,125,1161,125,3,743};
+globals[] = {25.000000,1,0,0,0,640,480,1,172,6316128,1,-533.074707,741.001282,387.194458,-1161.027588,318,773,1};
+window[] = {0,-1,-1,-1,-1,1066,1339,2527,147,1,336};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -368,9 +368,15 @@ class FSM
        "[[""CLIENT"", _side], ""Client_OnMessageReceived"", [""town-hostilenear"", _town]] call CTI_CO_FNC_NetSend;" \n
        "" \n
        "if (count _town_groups > 0) then {" \n
+       "	//--- By default, we try to delegate the creation to the HC Clients" \n
+       "	_delegated = [_town, _side, _town_teams, _town_groups, _town_positions] call CTI_SE_FNC_AttemptDelegation;" \n
+       "" \n
+       "	//--- If we couldn't delegate it then we create it from the server" \n
+       "	if !(_delegated) then {" \n
        "		_town_vehicles_groups = [_town, _side, _town_teams, _town_groups, _town_positions] call CTI_CO_FNC_CreateTownUnits;" \n
        "		_town setVariable [""cti_town_occupation_active_vehicles"", (_town getVariable ""cti_town_occupation_active_vehicles"") + (_town_vehicles_groups select 0),true];" \n
        "		_town setvariable [""CTI_TOWN_GROUPS"",_town_vehicles_groups select 1,true];" \n
+       "      };" \n
        "};" \n
        "" \n
        "_town setVariable [""cti_town_occupation_active"", true,true];" \n
@@ -486,7 +492,7 @@ class FSM
   initState="Start_FSM";
   finalStates[] =
   {
-    "End_FSM"
+    "End_FSM",
   };
 };
 /*%FSM</COMPILE>*/

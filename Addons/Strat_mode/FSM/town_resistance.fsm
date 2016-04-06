@@ -62,8 +62,8 @@ link30[] = {24,25};
 link31[] = {25,1};
 link32[] = {25,26};
 link33[] = {26,25};
-globals[] = {25.000000,1,0,0,0,640,480,1,173,6316128,1,-594.429260,559.376343,412.170746,-1019.523315,710,881,1};
-window[] = {2,-1,-1,-1,-1,662,50,1086,50,3,728};
+globals[] = {25.000000,1,0,0,0,640,480,1,173,6316128,1,-594.429260,559.376343,412.170746,-1019.523315,329,718,1};
+window[] = {0,-1,-1,-1,-1,940,245,1494,76,1,347};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -373,13 +373,20 @@ class FSM
        "//--- Warn" \n
        "//[[""CLIENT"",resistance], ""Client_OnMessageReceived"", [""town-hostilenear"", _town]] call CTI_CO_FNC_NetSend;" \n
        "" \n
+       "diag_log format [""Attempting to call AI HC Delegation for town [%1]"", _town];" \n
        "" \n
-       "_town_vehicles_groups = [_town, resistance, _town_teams, _town_groups, _town_positions] call CTI_CO_FNC_CreateTownUnits;" \n
-       "diag_log format["":: %1 :: %2"",(_town getVariable ""cti_town_name""),_town_vehicles_groups];" \n
+       "//--- By default, we try to delegate the creation to the HC Clients" \n
+       "_delegated = [_town, resistance, _town_teams, _town_groups, _town_positions] call CTI_SE_FNC_AttemptDelegation;" \n
        "" \n
-       "_town setvariable [""CTI_TOWN_GROUPS"",_town_vehicles_groups select 1,true];" \n
-       "_town setVariable [""cti_town_resistance_active_vehicles"", (_town getVariable ""cti_town_resistance_active_vehicles"") + (_town_vehicles_groups select 0),true];" \n
-       "_town setVariable [""cti_town_mortars_units"",[],true];" \n
+       "//--- If we couldn't delegate it then we create it from the server" \n
+       "if !(_delegated) then {" \n
+       "	_town_vehicles_groups = [_town, resistance, _town_teams, _town_groups, _town_positions] call CTI_CO_FNC_CreateTownUnits;" \n
+       "	diag_log format["":: %1 :: %2"",(_town getVariable ""cti_town_name""),_town_vehicles_groups];" \n
+       "" \n
+       "	_town setvariable [""CTI_TOWN_GROUPS"",_town_vehicles_groups select 1,true];" \n
+       "	_town setVariable [""cti_town_resistance_active_vehicles"", (_town getVariable ""cti_town_resistance_active_vehicles"") + (_town_vehicles_groups select 0),true];" \n
+       "	_town setVariable [""cti_town_mortars_units"",[],true];" \n
+       "};" \n
        "_town setVariable [""cti_town_resistance_active"", true,true];" \n
        "" \n
        "" \n
@@ -499,7 +506,7 @@ class FSM
   initState="Start_FSM";
   finalStates[] =
   {
-    "End_FSM"
+    "End_FSM",
   };
 };
 /*%FSM</COMPILE>*/
