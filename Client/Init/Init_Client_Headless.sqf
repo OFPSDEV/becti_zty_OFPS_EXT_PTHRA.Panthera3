@@ -59,6 +59,8 @@ with missionNamespace do {
 	};
 };
 
+CTI_Init_HC = true;
+
 //Old Code
 /*
 CTI_SM_Mortars_script = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\SM_Mortar.sqf";
