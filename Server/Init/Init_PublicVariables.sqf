@@ -124,7 +124,27 @@ with missionNamespace do {
 	CTI_PVF_Request_EventDestroyedHQ = { _this spawn CTI_SE_FNC_OnHQDestroyed };
 	CTI_PVF_Request_HQRepair = { _this spawn CTI_SE_FNC_RepairHQ };
 
-
+	CTI_PVF_Request_HCRegister = { 
+		private ["_client", "_ownerID", "_uid"];
+		_client = _this;
+		
+		_ownerID = owner _client;
+		_uid = getPlayerUID _client;
+		
+		if (_ownerID != 0) then { //--- The ID is different than 0, the client is not local to the server
+			_candidates = missionNamespace getVariable "CTI_HEADLESS_CLIENTS";
+			if (isNil '_candidates') then {_candidates = []};
+			[_candidates, [_ownerID, _client, _uid]] call CTI_CO_FNC_ArrayPush;
+			missionNamespace setVariable ["CTI_HEADLESS_CLIENTS", _candidates];
+			if (CTI_Log_Level >= CTI_Log_Information) then {["INFORMATION", "FUNCTION: CTI_PVF_Request_HCRegister", format["Headless Client [%1] with owner ID [%2] has been registered as a valid Headless Client. There is now [%3] Headless Clients", _uid, _ownerID, count _candidates]] call CTI_CO_FNC_Log};
+			// [] call   CTI_PVF_Client_OnRegisterAnswer
+			[["CLIENT", _client], "Client_OnRegisterAnswer", true] call CTI_CO_FNC_NetSend;
+		} else { //--- An ID of 0 mean that the object is local to the server
+			if (CTI_Log_Level >= CTI_Log_Error) then {["ERROR", "FUNCTION: CTI_PVF_Request_HCRegister", format ["Client [%1] sent a request but his owner ID is 0. It will not be registered as a valid Headless Client", _uid]] call CTI_CO_FNC_Log};
+			[["CLIENT", _client], "Client_OnRegisterAnswer", false] call CTI_CO_FNC_NetSend;
+		};
+	};
+	
 	CTI_PVF_Request_TownAddVehicles = {
 		private ["_side", "_town", "_vehicles"];
 

@@ -21,7 +21,7 @@ _town setVariable ["cti_town_name", _town_name];
 waitUntil {!isNil 'CTI_Init_JIP' && !isNil 'CTI_Init_Common'};
 
 _sideID = _town_side call CTI_CO_FNC_GetSideID;
-if (CTI_IsServer || CTI_IsHeadless) then {
+if (CTI_IsServer) then {
 	if CTI_IsServer then {
 		_town setVariable ["cti_town_owner", "0", true];
 		_town setVariable ["cti_town_sideID", _sideID, true];

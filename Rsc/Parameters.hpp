@@ -199,12 +199,6 @@ class Params {
 		texts[] = {""};
 		default = 1;
 	};
-	class HC_MODE {
-		title = "Zerty: Perf: HeadLess Client Mode";		
-		values[] = {0,1,2};		
-		texts[] = {"Towns:Server + HCs | patrols:HCs","Towns : HCs |  Patrols : HCs","Towns : Server |  Patrols : HCs"};		
-		default = 1;		
-	};
 	class CACHE_EMPTY {
 		title = "Zerty: Perf: PhysX Caching System";
 		values[] = {0,1};

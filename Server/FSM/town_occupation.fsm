@@ -52,8 +52,8 @@ link24[] = {19,21};
 link25[] = {20,18};
 link26[] = {21,8};
 link27[] = {22,1};
-globals[] = {25.000000,1,0,0,0,640,480,1,160,6316128,1,-411.897064,719.329102,396.646790,-557.132141,867,881,1};
-window[] = {2,-1,-1,-1,-1,981,200,1455,200,3,885};
+globals[] = {25.000000,1,0,0,0,640,480,1,160,6316128,1,-411.897064,719.329102,396.646790,-557.132141,406,635,1};
+window[] = {0,-1,-1,-1,-1,962,1205,2460,181,1,424};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -326,10 +326,14 @@ class FSM
        "[[""CLIENT"", _side], ""Client_OnMessageReceived"", [""town-hostilenear"", _town]] call CTI_CO_FNC_NetSend;" \n
        "" \n
        "if (count _town_groups > 0) then {" \n
-       "		_town setVariable [""cti_town_occupation_groups"",_return select 1];" \n
+       "	//--- By default, we try to delegate the creation to the HC Clients" \n
+       "	_delegated = [_town, _side, _town_teams, _town_groups, _town_positions] call CTI_SE_FNC_AttemptDelegation;" \n
+       "" \n
+       "	//--- If we couldn't delegate it then we create it from the server" \n
+       "	if !(_delegated) then {" \n
        "		_town_vehicles = [_town, _side, _town_teams, _town_groups, _town_positions] call CTI_CO_FNC_CreateTownUnits;" \n
        "		_town setVariable [""cti_town_occupation_active_vehicles"", (_town getVariable ""cti_town_occupation_active_vehicles"") + _town_vehicles];" \n
-       "" \n
+       "	};" \n
        "};" \n
        "" \n
        "_town setVariable [""cti_town_occupation_active"", true];" \n
@@ -385,7 +389,7 @@ class FSM
   initState="Start_FSM";
   finalStates[] =
   {
-    "End_FSM"
+    "End_FSM",
   };
 };
 /*%FSM</COMPILE>*/

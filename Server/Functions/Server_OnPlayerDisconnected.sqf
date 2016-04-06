@@ -41,6 +41,18 @@ if (_name == '__SERVER__' || _uid == '') exitWith {}; //--- We don't care about 
 waitUntil {!isNil 'CTI_Init_Common'};
 if (CTI_Log_Level >= CTI_Log_Information) then {["INFORMATION", "FILE: Server\Functions\Server_OnPlayerConnected.sqf", format["Player [%1] [%2] has joined the current session", _name, _uid]] call CTI_CO_FNC_Log};
 
+//--- Was it an Headless Client?
+_candidates = missionNamespace getVariable "CTI_HEADLESS_CLIENTS";
+if !(isNil '_candidates') then {
+	_index = -1;
+	{if (_x select 2 == _uid) exitWith {_index = _forEachIndex}} forEach _candidates;
+	if (_index > -1) then {
+		_candidates set [_index, "!nil!"]; _candidates = _candidates - ["!nil!"];
+		missionNamespace setVariable ["CTI_HEADLESS_CLIENTS", _candidates];
+		if (CTI_Log_Level >= CTI_Log_Information) then {["INFORMATION", "FILE: Server\Functions\Server_OnPlayerDisconnected.sqf", format["Headless Client [%1] [%2] has been disconnected and was removed from the registered clients. There is now [%3] Headless Clients.", _uid, _name, count _candidates]] call CTI_CO_FNC_Log};
+	};
+};
+
 // BLacklists CleanUp
 //====================
 

@@ -120,18 +120,18 @@ if (CTI_IsHeadless) then{
 };
 
 //--- Pure client execution
-if (CTI_IsClient && !CTI_IsHeadless) then {
+if (CTI_IsClient && !CTI_IsHeadless) then {	
 	if (CTI_Log_Level >= CTI_Log_Information) then { ["INFORMATION", "FILE: init.sqf", "Running client initialization"] call CTI_CO_FNC_Log	};
-
-	//waitUntil {!(isNull player)};
-
+	
+	waitUntil {!(isNull player)};
+	
 	execVM "Client\Init\Init_Client.sqf";
 };
 
 //--- Headless client execution
 if (CTI_IsHeadless) then {
 	if (CTI_Log_Level >= CTI_Log_Information) then { ["INFORMATION", "FILE: init.sqf", "Running headless client initialization"] call CTI_CO_FNC_Log };
-
+	
 	execVM "Client\Init\Init_Client_Headless.sqf";
 };
 
