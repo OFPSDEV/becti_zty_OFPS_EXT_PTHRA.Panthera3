@@ -295,6 +295,11 @@ if (CTI_IsServer) then {
 
 };
 
+//--- Headless Client
+if (CTI_IsHeadless) then {
+	0 execVM "Addons\Strat_mode\Functions\SM_Town_CAS.sqf";
+};
+
 if (CTI_IsClient) then {
 
 	//tutorial
