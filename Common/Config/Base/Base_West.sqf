@@ -98,7 +98,7 @@ _headers = _headers 		+ [[CTI_NAVAL, "Naval Yard", "Naval"]];
 _classes = _classes 		+ [["Land_Lighthouse_small_F", "Land_Lighthouse_small_ruins_F"]];
 _prices = _prices 			+ [4000];
 _times = _times 			+ [35];
-_placements = _placements 	+ [[180, 40]];
+_placements = _placements 	+ [[180, 55]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
@@ -464,19 +464,19 @@ _categories = _categories 	+ ["Structures_Military"];
 
 _headers = _headers 		+ ["Mil Shed"];
 _classes = _classes 		+ ["Land_sfp_mil_shed"];
-_prices = _prices 			+ [2000];
+_prices = _prices 			+ [1000];
 _placements = _placements 	+ [[0, 20]];
 _categories = _categories 	+ ["Structures_Military"];
 
 _headers = _headers 		+ ["Hangar Wood"];
 _classes = _classes 		+ ["Land_sfp_torebodahangar"];
-_prices = _prices 			+ [2000];
+_prices = _prices 			+ [1000];
 _placements = _placements 	+ [[0, 20]];
 _categories = _categories 	+ ["Structures_Military"];
 
 _headers = _headers 		+ ["Hangar Wood Large"];
 _classes = _classes 		+ ["Land_sfp_torebodahangar_alt2"];
-_prices = _prices 			+ [2500];
+_prices = _prices 			+ [1500];
 _placements = _placements 	+ [[0, 20]];
 _categories = _categories 	+ ["Structures_Military"];
 
