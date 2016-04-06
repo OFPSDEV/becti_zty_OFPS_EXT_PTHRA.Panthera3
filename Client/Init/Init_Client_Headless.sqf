@@ -51,6 +51,11 @@ with missionNamespace do {
 				deleteGroup _this;
 			};
 		} forEach _groups; //--- Delete the group client-sided.
+		
+		//--- CAS Module, delegated
+		if ( (missionNamespace getVariable 'CTI_SM_TCAS') <= (_town getVariable "cti_town_value")) then {
+			_town setVariable["CTI_CAS",(_town) call SM_TCAS_CREATE,true];
+		};
 	};
 };
 
