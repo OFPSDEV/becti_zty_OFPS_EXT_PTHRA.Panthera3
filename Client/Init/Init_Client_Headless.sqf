@@ -1,7 +1,7 @@
 if (CTI_Log_Level >= CTI_Log_Information) then { ["INFORMATION", "FILE: Client\Init\Init_Client_Headless.sqf", "Waiting for the Headless Client stabilization before sending the register request"] call CTI_CO_FNC_Log };
 
 //--- Wait for the headless client to "stabilize" itself
-sleep (30 + random 1);
+/*sleep (30 + random 1);*/
 
 while {isNull player} do {
 	sleep 5;
@@ -55,6 +55,7 @@ with missionNamespace do {
 };
 
 //Old Code
+/*
 CTI_SM_Mortars_script = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\SM_Mortar.sqf";
 TR_PROJ_HANDLER = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\TR_proj_handler.sqf";
 TR_HANDLER = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\TR_handler.sqf";
@@ -75,3 +76,4 @@ while {! (((getMarkerPos format ["HELO_START_%1", _i])select 0) == 0)} do
 if ( (missionNamespace getVariable 'CTI_SM_PATROLS')==1) then {
 	0 execVM "Addons\Strat_mode\PATROL_AI\PAI_Init.sqf";
 };
+*/
