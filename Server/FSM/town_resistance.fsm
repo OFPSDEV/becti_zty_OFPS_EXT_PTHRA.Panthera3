@@ -52,8 +52,8 @@ link24[] = {19,21};
 link25[] = {20,18};
 link26[] = {21,8};
 link27[] = {22,1};
-globals[] = {25.000000,1,0,0,0,640,480,1,166,6316128,1,-313.374939,395.405457,99.542603,-712.467163,359,635,1};
-window[] = {0,-1,-1,-1,-1,835,1189,2444,54,1,377};
+globals[] = {25.000000,1,0,0,0,640,480,1,166,6316128,1,-460.016235,248.764160,99.542603,-712.467163,359,635,1};
+window[] = {0,-1,-1,-1,-1,823,1232,2487,42,1,377};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -319,6 +319,8 @@ class FSM
        "_town_teams = _return select 0;" \n
        "_town_groups = _return select 1;" \n
        "_town_positions = _return select 2;" \n
+       "" \n
+       "diag_log format [""Attempting to call AI HC Delegation for town [%1]"", _town];" \n
        "" \n
        "//--- By default, we try to delegate the creation to the HC Clients" \n
        "_delegated = [_town, resistance, _town_teams, _town_groups, _town_positions] call CTI_SE_FNC_AttemptDelegation;" \n
