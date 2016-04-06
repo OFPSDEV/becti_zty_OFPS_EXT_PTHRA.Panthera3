@@ -199,6 +199,8 @@ _prices = _prices 			+ [20];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
+
+/* DO NOT INTRODUCE INTO GAME W/OUT TESTING, STILL INDESTRUCTABLE AS OF 1.56
 _headers = _headers 		+ ["H-Barrier (Small) (1 Block)"];
 _classes = _classes 		+ ["Land_HBarrier_1_F"];
 _prices = _prices 			+ [10];
@@ -210,6 +212,8 @@ _classes = _classes 		+ ["Land_HBarrier_5_F"];
 _prices = _prices 			+ [50];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
+*/
+
 
 _headers = _headers 		+ [["Long Sandbag", [["DMG_Reduce", 2]]]];
 _classes = _classes 		+ ["Land_BagFence_Long_F"];
