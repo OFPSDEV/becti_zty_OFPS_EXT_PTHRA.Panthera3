@@ -473,7 +473,7 @@ class Params {
 		title = "Zerty: Strategic: Town CAS if value above";
 		values[] = {0,100,150,200,250,300,350,400,500,600};
 		texts[] = {"0","100","150","200","250","300","350","400","500","600"};
-		default = 600;
+		default = 500;
 	};
 
 
