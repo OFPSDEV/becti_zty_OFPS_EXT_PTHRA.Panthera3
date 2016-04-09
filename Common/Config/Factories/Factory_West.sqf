@@ -162,52 +162,58 @@ _u = _u		+ ['I_Heli_light_03_unarmed_F'];
 _u = _u		+ ['I_Heli_Transport_02_F'];
 */
 _u = _u		+ ["B_Heli_Light_01_armed_F"];
-_u = _u		+ ["B_UAV_02_CAS_F"];
-_u = _u		+ ["B_UAV_02_F"];
-_u = _u		+ ["B_Heli_Attack_01_F"];
-_u = _u		+ ['OFPS_BUZZA_B'];
-_u = _u		+ ["B_Plane_CAS_01_F"];
+_u = _u		+ ['B_UCSV_01'];
+_u = _u		+ ['B_UCSV_02'];
+_u = _u		+ ['CUP_B_UH1Y_UNA_USMC'];
+_u = _u		+ ['CUP_B_UH1Y_MEV_USMC'];
+_u = _u		+ ['CUP_B_UH1Y_GUNSHIP_USMC'];
+_u = _u		+ ['CUP_B_AW159_Unarmed_GB'];
+_u = _u		+ ['CUP_B_AW159_Cannon_GB'];
+_u = _u		+ ['CUP_B_AW159_Hellfire_GB'];
+_u = _u		+ ['CUP_B_UH60M_Unarmed_US'];
+_u = _u		+ ['CUP_B_UH60M_US'];
+_u = _u		+ ['CUP_B_Merlin_HC3A_GB'];
+_u = _u		+ ['CUP_B_CH53E_USMC'];
+_u = _u		+ ['CUP_B_MH60S_USMC'];
+_u = _u		+ ['CUP_B_SA330_Puma_HC2_BAF'];
+_u = _u		+ ['CUP_B_CH47F_USA'];
 
+_u = _u		+ ['CUP_B_AH64D_MR_USA'];
+_u = _u		+ ['CUP_B_AH64D_AT_USA'];
+_u = _u		+ ['CUP_B_AH1Z'];
+_u = _u		+ ["B_Heli_Attack_01_F"];
+
+_u = _u		+ ['CUP_C_C47_CIV'];
+_u = _u		+ ['CUP_B_C130J_USMC'];
+_u = _u		+ ['CUP_B_C130J_Cargo_USMC'];
+_u = _u		+ ['CUP_B_MV22_USMC'];
+_u = _u		+ ['globemaster_c17_NATO'];
+_u = _u		+ ['LDL_C130J'];
 /*
 _u = _u		+ ['I_Heli_light_03_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
 //_u = _u		+ ["I_Plane_Fighter_03_CAS_F"];
-
-_u = _u		+ ['B_UCSV_01'];
-_u = _u		+ ['B_UCSV_02'];
-_u = _u		+ ['bwi_a3_at6b'];
+_u = _u		+ ["B_UAV_02_CAS_F"];
+_u = _u		+ ["B_UAV_02_F"];
+_u = _u		+ ['CUP_USMC_MQ9'];
 _u = _u		+ ['bwi_a3_t6a'];
 _u = _u		+ ['bwi_a3_t6c'];
-_u = _u		+ ['LDL_C130J'];
-_u = _u		+ ['globemaster_c17_NATO'];
-_u = _u		+ ['usaf_b1b'];
-
-_u = _u		+ ['CUP_C_C47_CIV'];
-_u = _u		+ ['CUP_B_AH64D_MR_USA'];
-_u = _u		+ ['CUP_B_AH64D_AT_USA'];
-_u = _u		+ ['CUP_B_AH1Z'];
-_u = _u		+ ['CUP_B_Merlin_HC3A_GB'];
-_u = _u		+ ['CUP_B_AW159_Cannon_GB'];
-_u = _u		+ ['CUP_B_AW159_Hellfire_GB'];
-_u = _u		+ ['CUP_B_AW159_Unarmed_GB'];
-_u = _u		+ ['CUP_B_CH47F_USA'];
-_u = _u		+ ['CUP_B_CH53E_USMC'];
-_u = _u		+ ['CUP_B_MH60S_USMC'];
-_u = _u		+ ['CUP_B_SA330_Puma_HC2_BAF'];
-_u = _u		+ ['CUP_B_UH1Y_GUNSHIP_USMC'];
-_u = _u		+ ['CUP_B_UH1Y_MEV_USMC'];
-_u = _u		+ ['CUP_B_UH1Y_UNA_USMC'];
-_u = _u		+ ['CUP_B_UH60M_US'];
-_u = _u		+ ['CUP_B_UH60M_Unarmed_US'];
+_u = _u		+ ['bwi_a3_at6b'];
+_u = _u		+ ['sab_panther5'];
+_u = _u		+ ['sab_alphajet'];
+_u = _u		+ ['sab_alphajet2'];
+_u = _u		+ ['OFPS_BUZZA_B'];
+_u = _u		+ ["B_Plane_CAS_01_F"];
 _u = _u		+ ['CUP_B_A10_CAS_USA'];
 _u = _u		+ ['CUP_B_AV8B_CAP_USMC'];
 _u = _u		+ ['CUP_B_F35B_AA_USMC'];
 _u = _u		+ ['CUP_B_GR9_CAP_GB'];
-_u = _u		+ ['CUP_USMC_MQ9'];
-_u = _u		+ ['CUP_B_MV22_USMC'];
-_u = _u		+ ['CUP_B_C130J_USMC'];
-_u = _u		+ ['CUP_B_C130J_Cargo_USMC'];
+_u = _u		+ ['FIR_F15K'];
+_u = _u		+ ['FIR_F15C'];
+_u = _u		+ ['FIR_F16C'];
+_u = _u		+ ['JS_S_FA18X'];
+_u = _u		+ ['usaf_b1b'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
@@ -232,7 +238,7 @@ _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
 _u = _u		+ ["sfp_gruppbat"];
 _u = _u		+ ["sfp_rbb_norrkoping"];
-/*_u = _u		+ ["ivory_fregata"];*/
+_u = _u		+ ["ivory_fregata"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 

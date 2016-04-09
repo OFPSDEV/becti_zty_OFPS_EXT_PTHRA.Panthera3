@@ -1382,6 +1382,69 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
+_c = _c + ['FIR_F15K'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [70000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['FIR_F15C'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [70000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['FIR_F16C'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [70000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['JS_S_FA18X'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [75000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_panther5'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [30000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_alphajet'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [30000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_alphajet2'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [30000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
 _c = _c + ['B_Boat_Transport_01_F'];
 _p = _p + [''];
 _n = _n + [''];

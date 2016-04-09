@@ -135,6 +135,7 @@ _u = _u		+ ['OFPS_T55'];
 _u = _u		+ ['OFPS_T72A'];
 _u = _u		+ ['OFPS_ZSU23'];
 _u = _u		+ ['CUP_O_BM21_RU'];
+_u = _u		+ ['sfp_ikv91'];
 
 /*
 _u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
@@ -146,6 +147,9 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 _u 			= ['O_Heli_Transport_04_F']; 
 _u = _u		+ ['O_Heli_Light_02_unarmed_F'];
 _u = _u		+ ['O_Heli_Light_02_F'];
+_u = _u		+ ['sfp_bo105_unarmed'];
+_u = _u		+ ['sfp_bo105'];
+_u = _u		+ ['O_UCSV_01'];
 /*
 _u = _u		+ ["I_Heli_light_03_unarmed_F"]; //ss83 added mobile respawn heli 
 _u = _u		+ ['I_Heli_Transport_02_F']; //ss83 mohawk
@@ -155,39 +159,43 @@ _u = _u		+ ["O_Heli_Transport_04_bench_F"];
 _u = _u		+ ["O_Heli_Transport_04_covered_F"];
 _u = _u		+ ["O_Heli_Transport_04_medevac_F"];
 _u = _u		+ ["O_Heli_Transport_04_repair_F"];
-_u = _u		+ ['O_UAV_02_CAS_F'];
-_u = _u		+ ['O_UAV_02_F'];
+_u = _u		+ ['CUP_O_Mi8_CHDKZ'];
+_u = _u		+ ['CUP_O_Mi8_SLA_2'];
+_u = _u		+ ['CUP_B_MI6T_CDF'];
+_u = _u		+ ['CUP_C_Mi17_Civilian_RU'];
+_u = _u		+ ['CUP_B_Mi171Sh_ACR'];
+
+_u = _u		+ ['CUP_B_Mi24_D_CDF'];
+_u = _u		+ ['CUP_O_Mi24_P_RU'];
+_u = _u		+ ['CUP_O_Mi24_V_RU'];
+_u = _u		+ ['CUP_O_Ka50_SLA'];
 _u = _u		+ ['O_Heli_Attack_02_F'];
 _u = _u		+ ['O_Heli_Attack_02_black_F'];
+
+_u = _u		+ ['CUP_C_DC3_CIV'];
+_u = _u		+ ['CUP_O_C130J_TKA'];
+_u = _u		+ ['CUP_O_C130J_Cargo_TKA'];
+_u = _u		+ ['globemaster_c17_Qatar'];
+_u = _u		+ ['LDL_C130J'];
 /*
 _u = _u		+ ['I_Heli_light_03_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
-_u = _u		+ ['OFPS_BUZAA_O'];
-_u = _u		+ ['O_Plane_CAS_02_F'];
-
-_u = _u		+ ['O_UCSV_01'];
+_u = _u		+ ['O_UAV_02_CAS_F'];
+_u = _u		+ ['O_UAV_02_F'];
 _u = _u		+ ['bwi_a3_t6a_5'];
 _u = _u		+ ['bwi_a3_at6b_2'];
-_u = _u		+ ['LDL_C130J'];
-_u = _u		+ ['globemaster_c17_Qatar'];
-_u = _u		+ ['usaf_b1b'];
-
-_u = _u		+ ['CUP_C_DC3_CIV'];
-_u = _u		+ ['CUP_O_Ka50_SLA'];
-_u = _u		+ ['CUP_C_Mi17_Civilian_RU'];
-_u = _u		+ ['CUP_B_Mi171Sh_ACR'];
-_u = _u		+ ['CUP_B_Mi24_D_CDF'];
-_u = _u		+ ['CUP_O_Mi24_P_RU'];
-_u = _u		+ ['CUP_O_Mi24_V_RU'];
-_u = _u		+ ['CUP_B_MI6T_CDF'];
-_u = _u		+ ['CUP_O_Mi8_CHDKZ'];
-_u = _u		+ ['CUP_O_Mi8_SLA_2'];
+_u = _u		+ ['sab_alphajet8'];
+_u = _u		+ ['OFPS_BUZAA_O'];
 _u = _u		+ ['CUP_B_Su25_CDF'];
 _u = _u		+ ['OFPS_SU34_LGB'];
 _u = _u		+ ['OFPS_SU34_AGM'];
-_u = _u		+ ['CUP_O_C130J_TKA'];
-_u = _u		+ ['CUP_O_C130J_Cargo_TKA'];
+_u = _u		+ ['FIR_F14D_IRIAF_OPFOR'];
+_u = _u		+ ['FIR_F14D_ENEMY_TYPE_A'];
+_u = _u		+ ['FIR_F16C_ENEMY_TYPE_A'];
+_u = _u		+ ['O_Plane_CAS_02_F'];
+_u = _u		+ ['O_PAKFA_F'];
+_u = _u		+ ['usaf_b1b'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
@@ -218,7 +226,7 @@ _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
 _u = _u		+ ["sfp_gruppbat"];
 _u = _u		+ ["sfp_rbb_norrkoping"];
-/*_u = _u		+ ["ivory_fregata"];*/
+_u = _u		+ ["ivory_fregata"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 

@@ -116,7 +116,16 @@ addons[]=
 	"sfp_gruppbat",
 	"ivory_fregata",
 	"sfp_torebodahangar",
-	"sfp_houses_mil_shed"
+	"sfp_houses_mil_shed",
+	"A3_Air_F_PAKFA",
+	"FIR_F14D_F",
+	"FIR_F15_F",
+	"FIR_F16_F",
+	"JS_S_FA18X",
+	"sab_alphajet",
+	"sab_panther",
+	"sfp_bo105",
+	"sfp_ikv91"
 };
 randomSeed=12242137;
 class ScenarioData
