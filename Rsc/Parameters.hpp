@@ -367,13 +367,13 @@ class Params {
 		title = "Zerty: TOWNS: Value Ratio";
 		values[] = {1,2,3,4,5,10};
 		texts[] = {"1","2","3","4","5","10"};
-		default = 3;
+		default = 2;
 	};
 	class CTI_TOWNS_CAPTURE_RATIO {
 		title = "Zerty: TOWNS: Value Award Ratio";
-		values[] = {1,2,3,4,5,10};
-		texts[] = {"1","2","3","4","5","10"};
-		default = 20;
+		values[] = {1,2,4,8,16,32};
+		texts[] = {"1","2","4","8","16","32"};
+		default = 16;
 	};
 	class CTI_TOWNS_RESISTANCE_DETECTION_RANGE {
 		title = "Zerty: TOWNS: Detection Range";
