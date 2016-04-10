@@ -138,24 +138,131 @@ _prices = [];
 _placements = [];
 _categories = [];
 
-_headers = _headers 		+ ["Lamp"];
-_classes = _classes 		+ ["Land_LampHalogen_F"];
-_prices = _prices 			+ [5];
-_placements = _placements 	+ [[90, 15]];
-_categories = _categories 	+ ["Fortification"];
-
 _headers = _headers 		+ ["Empty Crate"];
 _classes = _classes 		+ ["O_supplyCrate_F"];
 _prices = _prices 			+ [5];
 _placements = _placements 	+ [[0, 2]];
 _categories = _categories 	+ ["Fortification"];
 
+_headers = _headers 		+ ["Short Sandbag"];
+_classes = _classes 		+ ["Land_BagFence_Short_F"];
+_prices = _prices 			+ [5];
+_placements = _placements 	+ [[0, 5]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Long Sandbag"];
+_classes = _classes 		+ ["Land_BagFence_Long_F"];
+_prices = _prices 			+ [5];
+_placements = _placements 	+ [[0, 5]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Round Sandbag"];
+_classes = _classes 		+ ["Land_BagFence_Round_F"];
+_prices = _prices 			+ [5];
+_placements = _placements 	+ [[0, 5]];
+_categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ ["Bunker (Small)"];
 _classes = _classes 		+ ["Land_BagBunker_Small_F"];
 _prices = _prices 			+ [15];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Razor Wire"];
+_classes = _classes 		+ ["Land_Razorwire_F"];
+_prices = _prices 			+ [1];
+_placements = _placements 	+ [[0, 5]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ [["Fence",[["CanAutoAlign", 7.5, 0]]]];
+_classes = _classes 		+ ["Land_Mil_WiredFence_F"];
+_prices = _prices 			+ [5];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Gate"];
+_classes = _classes 		+ ["Land_Mil_WiredFence_Gate_F"];
+_prices = _prices 			+ [5];
+_placements = _placements 	+ [[0, 15]];
+_categories = _categories 	+ ["Structures_Fences"];
+
+_headers = _headers 		+ [["High Wall (Mil)",[["CanAutoAlign", 3.8, 0]]]];
+_classes = _classes 		+ ["Land_Mil_WallBig_4m_F"];
+_prices = _prices 			+ [20];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ [["High Wall Gate (Mil)",[["CanAutoAlign", 3.8, 0]]]];
+_classes = _classes 		+ ["Land_Mil_WallBig_Gate_F"];
+_prices = _prices 			+ [40];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Camo net"];
+_classes = _classes 		+ ["CamoNet_BLUFOR_F"];
+_prices = _prices 			+ [50];
+_placements = _placements 	+ [[0, 15]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Camo net open"];
+_classes = _classes 		+ ["CamoNet_BLUFOR_open_F"];
+_prices = _prices 			+ [50];
+_placements = _placements 	+ [[0, 15]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Camo net vehicle"];
+_classes = _classes 		+ ["CamoNet_BLUFOR_big_F"];
+_prices = _prices 			+ [50];
+_placements = _placements 	+ [[0, 15]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Tower"];
+_classes = _classes 		+ ["Land_Cargo_Patrol_V1_F"];
+_prices = _prices 			+ [150];
+_placements = _placements 	+ [[0, 15]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ [["Cargo Tower (big)",[["RuinOnDestroyed", "Land_Cargo_Tower_V1_ruins_F"], ["DMG_Reduce", 8]]]];
+_classes = _classes 		+ ["Land_Cargo_Tower_V1_F"];
+_prices = _prices 			+ [5000];
+_placements = _placements 	+ [[0, 30]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ [["Shed (Roof)",[["RuinOnDestroyed", "Land_Shed_Big_ruins_F"], ["DMG_Reduce", 8]]]];
+_classes = _classes 		+ ["Land_Shed_Big_F"];
+_prices = _prices 			+ [200];
+_placements = _placements 	+ [[0, 15]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ [["Shed (Land)",[["RuinOnDestroyed", "Land_Shed_Small_ruins_F"], ["DMG_Reduce", 5]]]];
+_classes = _classes 		+ ["Land_Shed_Small_F"];
+_prices = _prices 			+ [200];
+_placements = _placements 	+ [[90, 15]];
+_categories = _categories 	+ ["Structures_Industrial"];
+
+_headers = _headers 		+ [["Tent Hangar",[["RuinOnDestroyed", "Land_TentHangar_V1_ruins_F"], ["DMG_Reduce", 5]]]];
+_classes = _classes 		+ ["Land_TentHangar_V1_F"];
+_prices = _prices 			+ [1000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Structures_Military"];
+
+_headers = _headers 		+ ["Mil Shed"];
+_classes = _classes 		+ ["Land_sfp_mil_shed"];
+_prices = _prices 			+ [1000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Structures_Military"];
+
+_headers = _headers 		+ ["Hangar Wood"];
+_classes = _classes 		+ ["Land_sfp_torebodahangar"];
+_prices = _prices 			+ [1000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Structures_Military"];
+
+_headers = _headers 		+ ["Hangar Wood Large"];
+_classes = _classes 		+ ["Land_sfp_torebodahangar_alt2"];
+_prices = _prices 			+ [1500];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Structures_Military"];
 
 _headers = _headers 		+ ["Dome (Small)"];
 _classes = _classes 		+ ["Land_Dome_Small_F"];
@@ -169,47 +276,6 @@ _prices = _prices 			+ [6000];
 _placements = _placements 	+ [[0, 50]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ ["Tower"];
-_classes = _classes 		+ ["Land_Cargo_Patrol_V1_F"];
-_prices = _prices 			+ [150];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["Shed (Roof)",[["RuinOnDestroyed", "Land_Shed_Big_ruins_F"], ["DMG_Reduce", 8]]]];
-_classes = _classes 		+ ["Land_Shed_Big_F"];
-_prices = _prices 			+ [40];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["Shed (Land)",[["RuinOnDestroyed", "Land_Shed_Small_ruins_F"], ["DMG_Reduce", 5]]]];
-_classes = _classes 		+ ["Land_Shed_Small_F"];
-_prices = _prices 			+ [200];
-_placements = _placements 	+ [[90, 15]];
-_categories = _categories 	+ ["Structures_Industrial"];
-
-_headers = _headers 		+ [["Cargo Tower (big)",[["RuinOnDestroyed", "Land_Cargo_Tower_V1_ruins_F"], ["DMG_Reduce", 8]]]];
-_classes = _classes 		+ ["Land_Cargo_Tower_V1_F"];
-_prices = _prices 			+ [5000];
-_placements = _placements 	+ [[0, 30]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["Fence",[["CanAutoAlign", 7.5, 0]]]];
-_classes = _classes 		+ ["Land_Mil_WiredFence_F"];
-_prices = _prices 			+ [5];
-_placements = _placements 	+ [[0, 7]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["High Wall (Mil)",[["CanAutoAlign", 3.8, 0]]]];
-_classes = _classes 		+ ["Land_Mil_WallBig_4m_F"];
-_prices = _prices 			+ [20];
-_placements = _placements 	+ [[0, 7]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["High Wall Gate (Mil)",[["CanAutoAlign", 3.8, 0]]]];
-_classes = _classes 		+ ["Land_Mil_WallBig_Gate_F"];
-_prices = _prices 			+ [40];
-_placements = _placements 	+ [[0, 7]];
-_categories = _categories 	+ ["Fortification"];
 
 /* DO NOT INTRODUCE INTO GAME W/OUT TESTING, STILL INDESTRUCTABLE AS OF 1.56
 _headers = _headers 		+ ["H-Barrier (Small) (1 Block)"];
@@ -224,30 +290,6 @@ _prices = _prices 			+ [50];
 _placements = _placements 	+ [[0, 5]];
 _categories = _categories 	+ ["Fortification"];
 */
-
-_headers = _headers 		+ [["Long Sandbag", [["DMG_Reduce", 2]]]];
-_classes = _classes 		+ ["Land_BagFence_Long_F"];
-_prices = _prices 			+ [5];
-_placements = _placements 	+ [[0, 5]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["Short Sandbag", [["DMG_Reduce", 2]]]];
-_classes = _classes 		+ ["Land_BagFence_Short_F"];
-_prices = _prices 			+ [5];
-_placements = _placements 	+ [[0, 5]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["Round Sandbag", [["DMG_Reduce", 2]]]];
-_classes = _classes 		+ ["Land_BagFence_Round_F"];
-_prices = _prices 			+ [5];
-_placements = _placements 	+ [[0, 5]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ ["Gate"];
-_classes = _classes 		+ ["Land_Mil_WiredFence_Gate_F"];
-_prices = _prices 			+ [5];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Structures_Fences"];
 
 /*_headers = _headers 		+ [["High Wall (Concrete)",[["CanAutoAlign", 4.6, 0]]]];
 _classes = _classes 		+ ["Land_CncWall4_F"];
@@ -370,25 +412,17 @@ _prices = _prices 			+ [100000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
-_headers = _headers 		+ ["Camo net"];
-_classes = _classes 		+ ["CamoNet_BLUFOR_F"];
-_prices = _prices 			+ [50];
-_placements = _placements 	+ [[0, 15]];
+_headers = _headers 		+ [["Heli Pad", [["DMG_Reduce", 1]]]];
+_classes = _classes 		+ ["Land_HelipadSquare_F"];
+_prices = _prices 			+ [10];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Signs"];
+
+_headers = _headers 		+ ["Lamp"];
+_classes = _classes 		+ ["Land_LampHalogen_F"];
+_prices = _prices 			+ [5];
+_placements = _placements 	+ [[90, 15]];
 _categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ ["Camo net open"];
-_classes = _classes 		+ ["CamoNet_BLUFOR_open_F"];
-_prices = _prices 			+ [50];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ ["Camo net vehicle"];
-_classes = _classes 		+ ["CamoNet_BLUFOR_big_F"];
-_prices = _prices 			+ [50];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Fortification"];
-
-
 
 _headers = _headers 		+ ["Flag"];
 _classes = _classes 		+ ["Flag_NATO_F"];
@@ -438,49 +472,11 @@ _prices = _prices 			+ [50];
 _placements = _placements 	+ [[90, 7]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ [["Heli Pad", [["DMG_Reduce", 1]]]];
-_classes = _classes 		+ ["Land_HelipadSquare_F"];
-_prices = _prices 			+ [10];
-_placements = _placements 	+ [[0, 7]];
-_categories = _categories 	+ ["Signs"];
-
-
-
-_headers = _headers 		+ ["Ramp"];
-_classes = _classes 		+ ["Land_Obstacle_Ramp_F"];
-_prices = _prices 			+ [1];
-_placements = _placements 	+ [[0, 10]];
-_categories = _categories 	+ ["Training"];
-
 _headers = _headers 		+ ["Map"];
 _classes = _classes 		+ ["MapBoard_altis_F"];
 _prices = _prices 			+ [1];
 _placements = _placements 	+ [[180, 10]];
 _categories = _categories 	+ ["Furniture"];
-
-_headers = _headers 		+ [["Tent Hangar",[["RuinOnDestroyed", "Land_TentHangar_V1_ruins_F"], ["DMG_Reduce", 5]]]];
-_classes = _classes 		+ ["Land_TentHangar_V1_F"];
-_prices = _prices 			+ [1000];
-_placements = _placements 	+ [[0, 20]];
-_categories = _categories 	+ ["Structures_Military"];
-
-_headers = _headers 		+ ["Mil Shed"];
-_classes = _classes 		+ ["Land_sfp_mil_shed"];
-_prices = _prices 			+ [1000];
-_placements = _placements 	+ [[0, 20]];
-_categories = _categories 	+ ["Structures_Military"];
-
-_headers = _headers 		+ ["Hangar Wood"];
-_classes = _classes 		+ ["Land_sfp_torebodahangar"];
-_prices = _prices 			+ [1000];
-_placements = _placements 	+ [[0, 20]];
-_categories = _categories 	+ ["Structures_Military"];
-
-_headers = _headers 		+ ["Hangar Wood Large"];
-_classes = _classes 		+ ["Land_sfp_torebodahangar_alt2"];
-_prices = _prices 			+ [1500];
-_placements = _placements 	+ [[0, 20]];
-_categories = _categories 	+ ["Structures_Military"];
 
 /*
 
@@ -569,12 +565,6 @@ _prices = _prices 			+ [1];
 _placements = _placements 	+ [[0, 5]];
 _categories = _categories 	+ ["Structures"];
 */
-
-_headers = _headers 		+ ["Razor Wire"];
-_classes = _classes 		+ ["Land_Razorwire_F"];
-_prices = _prices 			+ [1];
-_placements = _placements 	+ [[0, 5]];
-_categories = _categories 	+ ["Fortification"];
 
 /*
 _headers = _headers 		+ ["Lamp Airport"];
