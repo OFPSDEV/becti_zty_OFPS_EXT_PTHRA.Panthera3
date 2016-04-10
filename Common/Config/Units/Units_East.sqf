@@ -758,7 +758,7 @@ _s = _s + [""];
 _c = _c + ['sfp_ikv91'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [20000];
+_o = _o + [15000];
 _t = _t + [20];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_HEAVY];
@@ -1399,7 +1399,7 @@ _o = _o + [40000];
 _t = _t + [25];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
-_s = _s + [""];
+_s = _s + ["service-ammotruck"];
 
 
 [_side, _faction, _c, _p, _n, _o, _t, _u, _f, _s] call compile preprocessFileLineNumbers "Common\Config\Units\Set_Units.sqf";
