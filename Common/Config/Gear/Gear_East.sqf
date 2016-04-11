@@ -1622,6 +1622,10 @@ _u = _u + [1];
 _p = _p + [10];
 
 //Launchers
+
+_i = _i + ["CUP_glaunch_6G30"];
+_u = _u + [3];
+_p = _p + [400];
 	
 //Anti-air
 		
