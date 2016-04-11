@@ -1957,10 +1957,6 @@ _i = _i + ["CUP_glaunch_M32"];
 _u = _u + [5];
 _p = _p + [500];
 
-_i = _i + ["CUP_glaunch_6G30"];
-_u = _u + [3];
-_p = _p + [400];
-
 //M79 Family
 
 _i = _i + ["CUP_glaunch_M79"];
