@@ -164,6 +164,7 @@ _u = _u		+ ['I_Heli_Transport_02_F'];
 _u = _u		+ ["B_Heli_Light_01_armed_F"];
 _u = _u		+ ['B_UCSV_01'];
 _u = _u		+ ['B_UCSV_02'];
+_u = _u		+ ['CUP_B_UH1D_GER_KSK'];
 _u = _u		+ ['CUP_B_UH1Y_UNA_USMC'];
 _u = _u		+ ['CUP_B_UH1Y_MEV_USMC'];
 _u = _u		+ ['CUP_B_UH1Y_GUNSHIP_USMC'];
@@ -200,7 +201,6 @@ _u = _u		+ ['CUP_USMC_MQ9'];
 _u = _u		+ ['bwi_a3_t6a'];
 _u = _u		+ ['bwi_a3_t6c'];
 _u = _u		+ ['bwi_a3_at6b'];
-_u = _u		+ ['sab_panther5'];
 _u = _u		+ ['sab_alphajet'];
 _u = _u		+ ['sab_alphajet2'];
 _u = _u		+ ['OFPS_BUZZA_B'];
@@ -209,10 +209,12 @@ _u = _u		+ ['CUP_B_A10_CAS_USA'];
 _u = _u		+ ['CUP_B_AV8B_CAP_USMC'];
 _u = _u		+ ['CUP_B_F35B_AA_USMC'];
 _u = _u		+ ['CUP_B_GR9_CAP_GB'];
+/*
 _u = _u		+ ['FIR_F15K'];
 _u = _u		+ ['FIR_F15C'];
 _u = _u		+ ['FIR_F16C'];
 _u = _u		+ ['JS_S_FA18X'];
+*/
 _u = _u		+ ['usaf_b1b'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];

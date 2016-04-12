@@ -1418,15 +1418,6 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-_c = _c + ['sab_panther5'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [30000];
-_t = _t + [20];
-_u = _u + [2];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
 _c = _c + ['sab_alphajet'];
 _p = _p + [''];
 _n = _n + [''];
@@ -1442,6 +1433,15 @@ _n = _n + [''];
 _o = _o + [30000];
 _t = _t + [20];
 _u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_UH1D_GER_KSK'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [4000];
+_t = _t + [20];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 

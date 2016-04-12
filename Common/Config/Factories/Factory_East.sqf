@@ -149,6 +149,7 @@ _u = _u		+ ['O_Heli_Light_02_unarmed_F'];
 _u = _u		+ ['O_Heli_Light_02_F'];
 _u = _u		+ ['sfp_bo105_unarmed'];
 _u = _u		+ ['sfp_bo105'];
+_u = _u		+ ['CUP_O_UH1H_TKA'];
 _u = _u		+ ['O_UCSV_01'];
 /*
 _u = _u		+ ["I_Heli_light_03_unarmed_F"]; //ss83 added mobile respawn heli 
@@ -190,9 +191,11 @@ _u = _u		+ ['OFPS_BUZAA_O'];
 _u = _u		+ ['CUP_B_Su25_CDF'];
 _u = _u		+ ['OFPS_SU34_LGB'];
 _u = _u		+ ['OFPS_SU34_AGM'];
+/*
 _u = _u		+ ['FIR_F14D_IRIAF_OPFOR'];
 _u = _u		+ ['FIR_F14D_ENEMY_TYPE_A'];
 _u = _u		+ ['FIR_F16C_ENEMY_TYPE_A'];
+*/
 _u = _u		+ ['O_Plane_CAS_02_F'];
 _u = _u		+ ['O_PAKFA_F'];
 _u = _u		+ ['usaf_b1b'];
