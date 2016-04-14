@@ -1325,6 +1325,12 @@ _p = _p + [1000];
 
 //************************C.U.P Stuff************************
 
+//Shields
+
+_i = _i + ["CUP_hgun_BallisticShield_Armed"]; 
+_u = _u + [1];
+_p = _p + [200];
+
 //RIFLES
 	
 //AK Family
@@ -3032,7 +3038,15 @@ _i = _i		+ ["CUP_B_USPack_Coyote"];
 _u = _u		+ [2];
 _p = _p		+ [500];
 
+_i = _i		+ ["CUP_B_RUS_Backpack"];
+_u = _u		+ [2];
+_p = _p		+ [500];
+
 _i = _i		+ ["CUP_B_AlicePack_Khaki"];
+_u = _u		+ [4];
+_p = _p		+ [600];
+
+_i = _i		+ ["CUP_B_AlicePack_Bedroll"];
 _u = _u		+ [4];
 _p = _p		+ [600];
 

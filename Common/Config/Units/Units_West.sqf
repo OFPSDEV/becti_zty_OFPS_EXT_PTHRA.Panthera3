@@ -717,6 +717,60 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
+_c = _c + ['CUP_B_BAF_Coyote_GMG_D'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [700];
+_t = _t + [10];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_BAF_Coyote_L2A1_D'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [600];
+_t = _t + [10];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_Mastiff_GMG_GB_D'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [700];
+_t = _t + [10];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_Mastiff_HMG_GB_D'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [600];
+_t = _t + [10];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_Ridgback_GMG_GB_D'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [700];
+_t = _t + [10];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_Ridgback_HMG_GB_D'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [600];
+_t = _t + [10];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
 _c = _c + ['B_APC_Wheeled_01_cannon_F'];
 _p = _p + [''];
 _n = _n + [''];
@@ -884,6 +938,42 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
+_c = _c + ['CUP_B_FV432_Bulldog_GB_D_RWS'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [7000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_FV432_Bulldog_GB_D'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [7000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_FV510_GB_D_SLAT'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [8000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_MCV80_GB_D_SLAT'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [8000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
 _c = _c + ['B_Truck_01_Repair_F'];  
 _p = _p + [''];
 _n = _n + [''];
@@ -956,16 +1046,23 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + ["service-ammotruck"];
 
+_c = _c + ["Box_NATO_Wps_F"];
+_p = _p + [''];
+_n = _n + ['Empty Crate'];
+_o = _o + [5];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + [""];
+
 _c = _c + ["B_supplyCrate_F"];
 _p = _p + [''];
 _n = _n + ['Mobile Gear access Crate'];
 _o = _o + [2000];
 _t = _t + [15];
 _u = _u + [0];
-_f = _f + [CTI_FACTORY_BARRACKS];
+_f = _f + [CTI_FACTORY_AMMO];
 _s = _s + ["service-gear"];
-
-
 
 
 /*Spawns with no gas and can't be controlled, have to fix this ss83
@@ -1355,6 +1452,15 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
+_c = _c + ['CUP_B_MV22_USMC_RAMPGUN'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [11000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
 _c = _c + ['CUP_C_C47_CIV'];
 _p = _p + [''];
 _n = _n + [''];
@@ -1445,6 +1551,60 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
+_c = _c + ['CUP_B_MH6J_USA'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [2000];
+_t = _t + [20];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_AH6X_USA'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [9000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_AH6J_Escort_USA'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [9000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_AH6J_Escort19_USA'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [9000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_AH6J_AT_USA'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [30000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['CUP_B_AH6J_MP_USA'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [9000];
+_t = _t + [20];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
 _c = _c + ['B_Boat_Transport_01_F'];
 _p = _p + [''];
 _n = _n + [''];
@@ -1526,10 +1686,10 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
-_c = _c + ['ivory_fregata'];
+_c = _c + ['CUP_B_Frigate_ANZAC'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [40000];
+_o = _o + [70000];
 _t = _t + [25];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];

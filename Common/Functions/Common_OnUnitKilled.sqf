@@ -131,13 +131,14 @@ if (!isNil '_var' && _isplayable_killer) then {
 					};
 				} forEach _award_groups;
 				//--- PVP Award
+				_pvpname = "";
 				if (_killer != leader _group_killed) then {
-					if (_isplayable_killed && _isplayer_killed && _isplayer_killed_leader) then {
-						_pvpname = "PLAYER NAME HERE";
+					if (_isplayable_killed && _isplayer_killed && _isplayer_killed_leader && _isplayable_killer) then {
+						_pvpname = name _killed;
 						_pvpbounty = 1500;  //reduced until bug is fixed...
 						{
 							if (_x call CTI_CO_FNC_IsGroupPlayable) then {
-								if (isPlayer leader _x) then {[["CLIENT", leader _x], "Client_AwardBounty", [_var_name, _pvpbounty]] call CTI_CO_FNC_NetSend} else {[_x, _side_killer, _pvpbounty] call CTI_CO_FNC_ChangeFunds};
+								if (isPlayer leader _x) then {[["CLIENT", leader _x], "Client_AwardBounty", [_var_name, _pvpbounty, _pvpname]] call CTI_CO_FNC_NetSend} else {[_x, _side_killer, _pvpbounty] call CTI_CO_FNC_ChangeFunds};
 							};
 						} forEach _award_groups;
 					}

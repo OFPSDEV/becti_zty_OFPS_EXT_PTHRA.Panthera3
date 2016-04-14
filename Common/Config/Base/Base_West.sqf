@@ -394,6 +394,11 @@ _prices = _prices 			+ [2000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
+_headers = _headers 		+ ["D-30 AT"];
+_classes = _classes 		+ ["CUP_B_D30_AT_CDF"];
+_placements = _placements 	+ [[180, 5]];
+_categories = _categories 	+ ["Defense"];
+
 _headers = _headers 		+ ["M252 81mm mortar"];
 _classes = _classes 		+ ["CUP_B_M252_USMC"];
 _prices = _prices 			+ [10000];

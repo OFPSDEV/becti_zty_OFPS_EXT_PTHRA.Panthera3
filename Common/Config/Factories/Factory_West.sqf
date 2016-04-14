@@ -111,8 +111,14 @@ _u = _u		+ ['CUP_RG31_Mk19'];
 _u = _u		+ ['CUP_RG31_Mk19_OD'];
 _u = _u		+ ['CUP_RG31E_M2'];
 
-/*
+_u = _u		+ ['CUP_B_BAF_Coyote_GMG_D'];
+_u = _u		+ ['CUP_B_BAF_Coyote_L2A1_D'];
+_u = _u		+ ['CUP_B_Mastiff_GMG_GB_D'];
+_u = _u		+ ['CUP_B_Mastiff_HMG_GB_D'];
+_u = _u		+ ['CUP_B_Ridgback_GMG_GB_D'];
+_u = _u		+ ['CUP_B_Ridgback_HMG_GB_D'];
 
+/*
 _u = _u		+ ['C_Van_01_transport_F']; //SS83 Omon's cars
 _u = _u		+ ['C_Kart_01_F'];
 _u = _u		+ ['C_Hatchback_01_sport_F'];
@@ -146,6 +152,11 @@ _u = _u		+ ['CUP_B_M2Bradley_USA_D'];
 _u = _u		+ ['CUP_B_M2A3Bradley_USA_D'];
 _u = _u		+ ['CUP_B_M6LineBacker_USA_W'];
 
+_u = _u		+ ['CUP_B_FV432_Bulldog_GB_D'];
+_u = _u		+ ['CUP_B_FV432_Bulldog_GB_D_RWS'];
+_u = _u		+ ['CUP_B_FV510_GB_D_SLAT'];
+_u = _u		+ ['CUP_B_MCV80_GB_D_SLAT'];
+
 /*
 _u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
 _u = _u		+ ['I_APC_tracked_03_cannon_F'];
@@ -164,6 +175,12 @@ _u = _u		+ ['I_Heli_Transport_02_F'];
 _u = _u		+ ["B_Heli_Light_01_armed_F"];
 _u = _u		+ ['B_UCSV_01'];
 _u = _u		+ ['B_UCSV_02'];
+_u = _u		+ ['CUP_B_MH6J_USA'];
+_u = _u		+ ['CUP_B_AH6X_USA'];
+_u = _u		+ ['CUP_B_AH6J_Escort_USA'];
+_u = _u		+ ['CUP_B_AH6J_Escort19_USA'];
+_u = _u		+ ['CUP_B_AH6J_AT_USA'];
+_u = _u		+ ['CUP_B_AH6J_MP_USA'];
 _u = _u		+ ['CUP_B_UH1D_GER_KSK'];
 _u = _u		+ ['CUP_B_UH1Y_UNA_USMC'];
 _u = _u		+ ['CUP_B_UH1Y_MEV_USMC'];
@@ -188,6 +205,7 @@ _u = _u		+ ['CUP_C_C47_CIV'];
 _u = _u		+ ['CUP_B_C130J_USMC'];
 _u = _u		+ ['CUP_B_C130J_Cargo_USMC'];
 _u = _u		+ ['CUP_B_MV22_USMC'];
+_u = _u		+ ['CUP_B_MV22_USMC_RAMPGUN'];
 _u = _u		+ ['globemaster_c17_NATO'];
 _u = _u		+ ['LDL_C130J'];
 /*
@@ -228,6 +246,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["B_Truck_01_ammo_F"];
 _u = _u		+ ['B_Slingload_01_Ammo_F'];
+_u = _u		+ ["Box_NATO_Wps_F"];
 _u = _u		+ ["B_supplyCrate_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
@@ -240,7 +259,7 @@ _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
 _u = _u		+ ["sfp_gruppbat"];
 _u = _u		+ ["sfp_rbb_norrkoping"];
-_u = _u		+ ["ivory_fregata"];
+_u = _u		+ ["CUP_B_Frigate_ANZAC"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 

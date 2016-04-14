@@ -1479,6 +1479,12 @@ _p = _p + [1000];
 
 //************************C.U.P Stuff************************
 
+//Shields
+
+_i = _i + ["CUP_hgun_BallisticShield_Armed"]; 
+_u = _u + [1];
+_p = _p + [200];
+
 //RIFLES
 	
 //MK12 Family
@@ -1534,6 +1540,16 @@ _u = _u + [0];
 _p = _p + [300];
 
 _i = _i + ["CUP_arifle_L85A2_GL"];
+_u = _u + [0];
+_p = _p + [350];
+
+//L129A1 Family
+
+_i = _i + ["CUP_srifle_L129A1"];
+_u = _u + [0];
+_p = _p + [300];
+
+_i = _i + ["CUP_srifle_L129A1_HG"];
 _u = _u + [0];
 _p = _p + [350];
 
@@ -2315,6 +2331,10 @@ _u = _u		+ [0];
 _p = _p		+ [10];
 
 _i = _i		+ ["CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_762x51_L129_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
@@ -3466,6 +3486,14 @@ _u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["CUP_B_AlicePack_Khaki"];
+_u = _u		+ [4];
+_p = _p		+ [600];
+
+_i = _i		+ ["CUP_B_RUS_Backpack"];
+_u = _u		+ [2];
+_p = _p		+ [500];
+
+_i = _i		+ ["CUP_B_AlicePack_Bedroll"];
 _u = _u		+ [4];
 _p = _p		+ [600];
 

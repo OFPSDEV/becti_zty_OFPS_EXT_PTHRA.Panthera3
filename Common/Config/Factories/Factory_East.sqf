@@ -103,6 +103,13 @@ _u = _u		+ ['CUP_O_Ural_Empty_RU'];
 _u = _u		+ ['CUP_O_Ural_Open_RU'];
 _u = _u		+ ['CUP_O_Ural_ZU23_RU'];
 
+_u = _u		+ ['CUP_O_BTR40_TKA'];
+_u = _u		+ ['CUP_O_BTR40_MG_TKA'];
+_u = _u		+ ['CUP_O_GAZ_Vodnik_PK_RU'];
+_u = _u		+ ['CUP_O_GAZ_Vodnik_AGS_RU'];
+_u = _u		+ ['CUP_O_GAZ_Vodnik_BPPU_RU'];
+_u = _u		+ ['CUP_O_GAZ_Vodnik_MedEvac_RU'];
+
 /*
 _u = _u		+ ['C_Van_01_transport_F']; //SS83 Omon's Cars
 _u = _u		+ ['C_Kart_01_F'];
@@ -137,6 +144,9 @@ _u = _u		+ ['OFPS_ZSU23'];
 _u = _u		+ ['CUP_O_BM21_RU'];
 _u = _u		+ ['sfp_ikv91'];
 
+_u = _u		+ ['CUP_O_2S6M_RU'];
+_u = _u		+ ['CUP_O_BMP3_RU'];
+
 /*
 _u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
 _u = _u		+ ['I_APC_tracked_03_cannon_F'];
@@ -169,7 +179,11 @@ _u = _u		+ ['CUP_B_Mi171Sh_ACR'];
 _u = _u		+ ['CUP_B_Mi24_D_CDF'];
 _u = _u		+ ['CUP_O_Mi24_P_RU'];
 _u = _u		+ ['CUP_O_Mi24_V_RU'];
+_u = _u		+ ['CUP_I_Mi24_Mk3_AT_ION'];
 _u = _u		+ ['CUP_O_Ka50_SLA'];
+_u = _u		+ ['CUP_O_Ka52_RU'];
+_u = _u		+ ['CUP_O_Ka60_Hex_CSAT'];
+_u = _u		+ ['CUP_O_Ka60_GL_Hex_CSAT'];
 _u = _u		+ ['O_Heli_Attack_02_F'];
 _u = _u		+ ['O_Heli_Attack_02_black_F'];
 
@@ -215,6 +229,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["O_Truck_02_Ammo_F"];
 _u = _u		+ ["O_Truck_03_Ammo_F"];
+_u = _u		+ ["Box_East_Wps_F"];
 _u = _u		+ ["O_supplyCrate_F"];
 _u = _u		+ ["Land_Pod_Heli_Transport_04_ammo_F"];
 _u = _u		+ ['CUP_O_Ural_Reammo_RU'];
@@ -229,7 +244,7 @@ _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
 _u = _u		+ ["sfp_gruppbat"];
 _u = _u		+ ["sfp_rbb_norrkoping"];
-_u = _u		+ ["ivory_fregata"];
+_u = _u		+ ["CUP_B_Frigate_ANZAC"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
