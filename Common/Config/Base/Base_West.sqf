@@ -396,6 +396,7 @@ _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["D-30 AT"];
 _classes = _classes 		+ ["CUP_B_D30_AT_CDF"];
+_prices = _prices 			+ [5000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
