@@ -91,6 +91,7 @@ _u = _u		+ ['CUP_B_LR_Ambulance_CZ_W'];
 _u = _u		+ ['OFPS_LR_MG'];
 _u = _u		+ ['OFPS_LR_S'];
 _u = _u		+ ['OFPS_LR_SPG9'];
+_u = _u		+ ['OFPS_LR_SX'];
 _u = _u		+ ['CUP_C_LR_Transport_CTK'];
 _u = _u		+ ['CUP_B_UAZ_Unarmed_CDF'];
 _u = _u		+ ['OFPS_UAZ_AGS30'];
@@ -105,10 +106,10 @@ _u = _u		+ ['CUP_O_Ural_ZU23_RU'];
 
 _u = _u		+ ['CUP_O_BTR40_TKA'];
 _u = _u		+ ['CUP_O_BTR40_MG_TKA'];
-_u = _u		+ ['CUP_O_GAZ_Vodnik_PK_RU'];
-_u = _u		+ ['CUP_O_GAZ_Vodnik_AGS_RU'];
-_u = _u		+ ['CUP_O_GAZ_Vodnik_BPPU_RU'];
-_u = _u		+ ['CUP_O_GAZ_Vodnik_MedEvac_RU'];
+_u = _u		+ ['OFPS_VOD_1'];
+_u = _u		+ ['OFPS_VOD_2'];
+_u = _u		+ ['OFPS_VOD_3'];
+_u = _u		+ ['OFPS_VOD_4'];
 
 /*
 _u = _u		+ ['C_Van_01_transport_F']; //SS83 Omon's Cars
@@ -145,7 +146,7 @@ _u = _u		+ ['CUP_O_BM21_RU'];
 _u = _u		+ ['sfp_ikv91'];
 
 _u = _u		+ ['CUP_O_2S6M_RU'];
-_u = _u		+ ['CUP_O_BMP3_RU'];
+_u = _u		+ ['OFPS_BMP3'];
 
 /*
 _u = _u		+ ['I_APC_Wheeled_03_cannon_F'];

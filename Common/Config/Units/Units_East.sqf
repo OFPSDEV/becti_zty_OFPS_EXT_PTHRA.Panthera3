@@ -502,6 +502,15 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
+_c = _c + ['OFPS_LR_SX'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [700];
+_t = _t + [10];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
 _c = _c + ['CUP_C_LR_Transport_CTK'];
 _p = _p + [''];
 _n = _n + [''];
@@ -628,7 +637,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_O_GAZ_Vodnik_PK_RU'];
+_c = _c + ['OFPS_VOD_1'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [600];
@@ -637,7 +646,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_O_GAZ_Vodnik_AGS_RU'];
+_c = _c + ['OFPS_VOD_2'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [700];
@@ -646,7 +655,7 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_O_GAZ_Vodnik_BPPU_RU'];
+_c = _c + ['OFPS_VOD_3'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1000];
@@ -655,7 +664,7 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_O_GAZ_Vodnik_MedEvac_RU'];
+_c = _c + ['OFPS_VOD_4'];
 _p = _p + [''];
 _n = _n + [(format ["Mobile Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [3000];
@@ -827,7 +836,7 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
-_c = _c + ['CUP_O_BMP3_RU'];
+_c = _c + ['OFPS_BMP3'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [6000];
@@ -1525,7 +1534,7 @@ _o = _o + [60000];
 _t = _t + [25];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
-_s = _s + ["service-ammotruck","service-medic","service-repairtruck"];
+_s = _s + ["service-all"];
 
 
 [_side, _faction, _c, _p, _n, _o, _t, _u, _f, _s] call compile preprocessFileLineNumbers "Common\Config\Units\Set_Units.sqf";

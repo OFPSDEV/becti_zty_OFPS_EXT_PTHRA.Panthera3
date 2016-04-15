@@ -1693,6 +1693,6 @@ _o = _o + [60000];
 _t = _t + [25];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
-_s = _s + ["service-ammotruck","service-medic","service-repairtruck"];
+_s = _s + ["service-all"];
 
 [_side, _faction, _c, _p, _n, _o, _t, _u, _f, _s] call compile preprocessFileLineNumbers "Common\Config\Units\Set_Units.sqf";
