@@ -138,6 +138,7 @@ addons[]=
 	"FIR_F14D_F",
 	"FIR_F15_F",
 	"FIR_F16_F",
+	"JS_JC_FA18",
 	"JS_S_FA18X",
 	"sab_alphajet",
 	"sfp_bo105",

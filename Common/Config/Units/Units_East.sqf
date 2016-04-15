@@ -1512,20 +1512,20 @@ _s = _s + [""];
 _c = _c + ['sfp_rbb_norrkoping'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [40000];
+_o = _o + [30000];
 _t = _t + [25];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
-_c = _c + ['CUP_B_Frigate_ANZAC'];
+_c = _c + ['OFPS_Frigate_CSAT'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [70000];
+_o = _o + [60000];
 _t = _t + [25];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
-_s = _s + ["service-ammotruck"];
+_s = _s + ["service-ammotruck","service-medic","service-repairtruck"];
 
 
 [_side, _faction, _c, _p, _n, _o, _t, _u, _f, _s] call compile preprocessFileLineNumbers "Common\Config\Units\Set_Units.sqf";
