@@ -1686,7 +1686,7 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
-_c = _c + ['OFPS_Frigate'];
+_c = _c + ['OFPS_Frigate_Blu'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [60000];
