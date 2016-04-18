@@ -2306,10 +2306,9 @@ _i = _i		+ ["CUP_6Rnd_FlareYellow_M203"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-_i = _i		+ ["CUP_6Rnd_HE_6G30"];
+_i = _i		+ ["CUP_6Rnd_HE_GP25_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
-
 
 //--- Handgrenades
 
