@@ -118,6 +118,10 @@ CTI_UI_Service_ProcessRearm = {
 			_times set [_forEachIndex,_x * CTI_ART_REARM_RATIO];
 		} forEach _times;
 	};
+		{
+			_times set [_forEachIndex,_x * CTI_MORTAR_REARM_RATIO];
+		} forEach _times;
+	};
 	hint parseText format ["<t size='1.3' color='#2394ef'>Information</t><br /><br />Rearming a <t color='#ccffaf'>%1</t>... Please stand by ...", _label];
 	_unit setVehicleAmmo 0;
 
@@ -229,6 +233,7 @@ CTI_UI_Service_GetPrice = {
 	_cost = _base_cost;
 	if (!(isNil {missionNamespace getVariable typeOf _unit}) && _coefficient > -1) then {
 		_cost = _cost +  ((missionNamespace getVariable typeOf _unit) select CTI_UNIT_PRICE) * _coefficient;
+	};
 	};
 
 	round(_cost)
