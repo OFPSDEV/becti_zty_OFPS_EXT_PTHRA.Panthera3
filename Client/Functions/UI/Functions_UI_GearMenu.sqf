@@ -1016,7 +1016,12 @@ CTI_UI_Gear_OnShoppingItemDrag = {
 							//--- Where does it fit?
 							{
 								if ((_x select 0) != "") then {
-									if (_item in (getArray(configFile >> _config_type >> (_x select 0) >> 'WeaponSlotsInfo' >> 'CowsSlot' >> 'compatibleItems') call CTI_CO_FNC_ArrayToLower)) then {_idcs = _idcs + [_acc_idcs select _forEachIndex]};
+								   //Thx SteelRat from ArmA 3.Ru forum for this code
+								   _cfg = configFile >> _config_type >> (_x select 0) >> 'WeaponSlotsInfo' >> 'CowsSlot' >> 'compatibleItems';
+								   if (getNumber(_cfg >> _item) > 0) then {
+									  //if (_item in (getArray(configFile >> _config_type >> (_x select 0) >> 'WeaponSlotsInfo' >> 'CowsSlot' >> 'rhs_russian_rifle_scopes_slot' >> 'asdg_OpticSideMount' >> 'compatibleItems') call CTI_CO_FNC_ArrayToLower)) then {
+									  _idcs = _idcs + [_acc_idcs select _forEachIndex]
+								   };
 								};
 							} forEach (_gear select 0);
 						};
