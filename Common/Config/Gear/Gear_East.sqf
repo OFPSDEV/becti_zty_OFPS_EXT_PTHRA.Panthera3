@@ -2155,7 +2155,6 @@ _i = _i		+ ["CUP_1Rnd_HE_GP25_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-
 //--- Smoke
 
 _i = _i		+ ["1Rnd_Smoke_Grenade_shell"];
@@ -2312,6 +2311,9 @@ _i = _i		+ ["CUP_6Rnd_FlareYellow_M203"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
+_i = _i		+ ["CUP_6Rnd_HE_GP25_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
 
 //--- Handgrenades
 
