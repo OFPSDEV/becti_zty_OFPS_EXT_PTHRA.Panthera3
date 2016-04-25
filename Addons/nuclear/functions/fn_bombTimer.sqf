@@ -2,7 +2,6 @@ private ["_time", "_object", "_target", "_time_difference"];
 
 cutText ["BOMB ARMED", "PLAIN DOWN"];
 
-_time = 300;
 _object = _this select 0;
 
 _object setVariable ["nukearmtime", serverTime, true];
@@ -15,9 +14,20 @@ while {alive _object && _time > 0 && !isNull _object} do {
 	_time_difference = (( _object getVariable "nukeblowtime" )- serverTime  );
 	hintSilent format["Nuclear Detonation: \n %1", [((_time_difference)/60)+.01,"HH:MM"] call BIS_fnc_timetostring];
 
+	if (_time_difference < 30 && _time_difference > 29) then {
+		playsound "air_raid";
+	};
+	if (_time_difference < 20 && _time_difference > 19) then {
+		playsound "air_raid";
+	};
+	if (_time_difference < 10 && _time_difference > 9) then {
+		playsound "air_raid";
+	};
+	if (_time_difference < 8 && _time_difference > 7) then {
+		playsound "choppa";
+	};
 	if (_time_difference <= 0) then {
 		call {[_object] execvm "Addons\nuclear\detonation.sqf"}; 
-		playsound "nuke";
 		hint "Nuclear Detonation Successful";
 	};
 	sleep 1;

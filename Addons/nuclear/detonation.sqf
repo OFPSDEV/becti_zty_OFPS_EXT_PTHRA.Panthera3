@@ -5,8 +5,7 @@ _xpos = getpos _object select 0;
 _ypos = getpos _object select 1;
 
 //Annoucement
-playsound "akbar";
-sleep 0.5;
+playsound "nuke";
 //Nuke Settings
 call compile preprocessfile "Addons\nuclear\config.sqf";
 //Object Variables

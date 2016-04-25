@@ -371,6 +371,7 @@ _categories = _categories 	+ ["Defense"];
 if !(MADE_FOR_STRATIS) then {
 _headers = _headers 		+ ["Mortar"];
 _classes = _classes 		+ ["B_Mortar_01_F"];
+_prices = _prices 			+ [15000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 };
@@ -401,6 +402,7 @@ _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["M252 81mm mortar"];
 _classes = _classes 		+ ["CUP_B_M252_USMC"];
+_prices = _prices 			+ [15000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
