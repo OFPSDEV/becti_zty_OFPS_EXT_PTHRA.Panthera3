@@ -44,9 +44,6 @@ _i = _i		+ ["Laserbatteries"];
 _u = _u		+ [2];
 _p = _p		+ [5];
 
-
-
-
 _i = _i		+ ["6Rnd_45ACP_Cylinder"];
 _u = _u		+ [0];
 _p = _p		+ [5];

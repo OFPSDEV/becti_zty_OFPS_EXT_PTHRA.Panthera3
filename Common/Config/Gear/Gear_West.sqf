@@ -415,7 +415,6 @@ _i = _i		+ ["launch_B_Titan_short_F"];
 _u = _u		+ [5];
 _p = _p		+ [8000];
 
-
 _i = _i		+ ["hgun_P07_F"];  
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -484,7 +483,6 @@ _p = _p		+ [150];
 _i = _i		+ ["U_B_CTRG_3"];
 _u = _u		+ [1];
 _p = _p		+ [150];
-
 
 _i = _i		+ ["U_B_GhillieSuit"];
 _u = _u		+ [3];
@@ -662,9 +660,6 @@ _i = _i		+ ["B_Carryall_oucamo"];
 _u = _u		+ [3];
 _p = _p		+ [800];
 
-
-
-
 _i = _i		+ ["B_Parachute"];
 _u = _u		+ [1];
 _p = _p		+ [5];
@@ -835,8 +830,6 @@ _p = _p		+ [150];
 _i = _i		+ ["H_HelmetB_snakeskin"];
 _u = _u		+ [1];
 _p = _p		+ [150];
-
-
 
 _i = _i		+ ["H_HelmetB_light"];
 _u = _u		+ [0];
@@ -1102,15 +1095,6 @@ _i = _i		+ ["H_ShemagOpen_khk"];
 _u = _u		+ [1];
 _p = _p		+ [5];
 
-
-
-
-
-
-
-
-
-
 //--- Accessories
 _i = _i		+ ["muzzle_snds_acp"];
 _u = _u		+ [1];
@@ -1204,10 +1188,6 @@ _i = _i		+ ["acc_pointer_IR"];
 _u = _u		+ [0];
 _p = _p		+ [20];
 
-
-
-
-
 //--- Items
 _i = _i		+ ["NVGoggles"];
 _u = _u		+ [1];
@@ -1221,7 +1201,6 @@ _i = _i		+ ["Rangefinder"];
 _u = _u		+ [0];
 _p = _p		+ [250];
 
-
 _i = _i		+ ["Laserdesignator"];
 _u = _u		+ [2];
 _p = _p		+ [1500];
@@ -1229,7 +1208,6 @@ _p = _p		+ [1500];
 _i = _i		+ ["ItemGPS"];
 _u = _u		+ [0];
 _p = _p		+ [100];
-
 
 _i = _i		+ ["MineDetector"];
 _u = _u		+ [0];
@@ -1714,7 +1692,7 @@ _u = _u + [1];
 _p = _p + [350];
 
 _i = _i + ["CUP_arifle_MG36_camo"];
-_u = _u + [1];0
+_u = _u + [1];
 _p = _p + [350];
 
 _i = _i + ["CUP_MG36_camo"];
