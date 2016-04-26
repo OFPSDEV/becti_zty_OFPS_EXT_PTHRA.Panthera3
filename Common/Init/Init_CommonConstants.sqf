@@ -495,8 +495,8 @@ CTI_VEHICLES_REPAIRTRUCK_BASE_REPAIR_RANGE = 100; //--- Repair trucks may repair
 //--- Vehicles: Salvage Trucks
 CTI_VEHICLES_SALVAGE_INDEPENDENT_MAX = 2; //--- Maximum amount of Independent Salvage Trucks which may be present per side
 CTI_VEHICLES_SALVAGE_INDEPENDENT_EFFECTIVE_RANGE = 5000; //--- An independent Salvage may search for wreck up to x meters
-CTI_VEHICLES_SALVAGE_RATE = 0.2; //--- This coefficient determine the value of a salvaged wreck (wreck value * x)
-CTI_VEHICLES_SALVAGE_RANGE = 100; //--- This is the distance required between a Wreck and Salvage Truck
+CTI_VEHICLES_SALVAGE_RATE = 0.4; //--- This coefficient determine the value of a salvaged wreck (wreck value * x)
+CTI_VEHICLES_SALVAGE_RANGE = 300; //--- This is the distance required between a Wreck and Salvage Truck
 CTI_VEHICLES_SALVAGER_PRICE = 1000; //--- Determine the cost of the salvage trucks
 
 
