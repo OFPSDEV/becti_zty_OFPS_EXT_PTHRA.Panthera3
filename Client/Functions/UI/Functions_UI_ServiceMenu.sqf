@@ -118,7 +118,7 @@ CTI_UI_Service_ProcessRearm = {
 			_times set [_forEachIndex,_x * CTI_ART_REARM_RATIO];
 		} forEach _times;
 	};
-	if (_unit isKindOf "B_Mortar_01_F" || _unit isKindOf "O_Mortar_01_F" || _unit isKindOf  "CUP_B_2b14_82mm_CDF" ) then {
+	if (_unit isKindOf "B_Mortar_01_F" || _unit isKindOf "O_Mortar_01_F" || _unit isKindOf  "CUP_B_M252_USMC" || _unit isKindOf  "CUP_B_2b14_82mm_CDF" || _unit isKindOf  "Podnos 2B14" ) then {
 		{
 			_times set [_forEachIndex,_x * CTI_MORTAR_REARM_RATIO];
 		} forEach _times;
@@ -229,14 +229,14 @@ CTI_UI_Service_GetPrice = {
 	private ["_base_cost", "_cost", "_coefficient", "_unit"];
 	_unit = _this select 0;
 	_base_cost = _this select 1;
-	_coefficient = if (count _this > 2) then {_this select 2} else {-1};
+	_coefficient = if (count _this > 2) then {_this select 2} else {-1};    
 
 	_cost = _base_cost;
 	if (!(isNil {missionNamespace getVariable typeOf _unit}) && _coefficient > -1) then {
 		_cost = _cost +  ((missionNamespace getVariable typeOf _unit) select CTI_UNIT_PRICE) * _coefficient;
 	};
-	if (_unit isKindOf "B_Mortar_01_F" || _unit isKindOf "O_Mortar_01_F" || _unit isKindOf  "CUP_B_M252_USMC" || _unit isKindOf  "CUP_B_2b14_82mm_CDF" ) then {
-		_cost = 4000;
+	if (_unit isKindOf "B_Mortar_01_F" || _unit isKindOf "O_Mortar_01_F" || _unit isKindOf  "CUP_B_M252_USMC" || _unit isKindOf  "CUP_B_2b14_82mm_CDF" || _unit isKindOf  "Podnos 2B14" ) then {
+		_cost = 5000;
 	};
 
 	round(_cost)

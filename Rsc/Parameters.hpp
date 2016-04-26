@@ -319,13 +319,13 @@ class Params {
 		title = "Zerty: GAMEPLAY: Darter Range limitation";
 		values[] = {0,500,800,1200,1500,2000, 4000};
 		texts[] = {"None","Connection range 500m","Connection range 800m","Connection range 1200m","Connection range 1500m","Connection range 2000m", "Connection range 4000m"};
-		default = 4000;
+		default = 2000;
 	};
 	class CTI_GAMEPLAY_DARTER_FUEL {
 		title = "Zerty: GAMEPLAY: Darter Fuel limitation";
 		values[] = {0,1};
 		texts[] = {"Disabled", "Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_SM_NONV {
 		title = "Zerty: GAMEPLAY: No NVs, No Thermal";

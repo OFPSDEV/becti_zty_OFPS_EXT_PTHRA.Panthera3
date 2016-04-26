@@ -368,26 +368,14 @@ _classes = _classes 		+ ["O_static_AA_F"];
 _prices = _prices 			+ [2000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
-if !(MADE_FOR_STRATIS) then {
+
+/* BLUFOR gets vanilla mortar and opfor the PODNOS, which works just as good
 _headers = _headers 		+ ["Mortar"];
 _classes = _classes 		+ ["O_Mortar_01_F"];
 _prices = _prices 			+ [15000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
-};
-
-_headers = _headers 		+ ["M2 Machine Gun"];
-_classes = _classes 		+ ["CUP_B_M2StaticMG_USMC"];
-_prices = _prices 			+ [1500];
-_placements = _placements 	+ [[180, 5]];
-_categories = _categories 	+ ["Defense"];
-
-_headers = _headers 		+ ["M2 Mini"];
-_classes = _classes 		+ ["CUP_B_M2StaticMG_USMC"];
-_prices = _prices 			+ [1500];
-_placements = _placements 	+ [[180, 5]];
-_categories = _categories 	+ ["Defense"];
-
+*/
 _headers = _headers 		+ ["AGS-30"];
 _classes = _classes 		+ ["CUP_B_AGS_CDF"];
 _prices = _prices 			+ [1500];

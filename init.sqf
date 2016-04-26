@@ -164,8 +164,8 @@ enableEnvironment false;
 
 //--- No more weapon sway
 if (local player) then { 
-player setCustomAimCoef 0.1; 
-player addMPEventhandler ["MPRespawn", {player setCustomAimCoef 0.1;}]; 
+player setCustomAimCoef 0.5; 
+player addMPEventhandler ["MPRespawn", {player setCustomAimCoef 0.5;}]; 
 };  
 
 

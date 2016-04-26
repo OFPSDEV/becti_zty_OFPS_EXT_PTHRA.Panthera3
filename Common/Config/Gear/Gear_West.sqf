@@ -124,21 +124,22 @@ _i = _i		+ ["30Rnd_9x21_Mag"];
 _u = _u		+ [0];
 _p = _p		+ [2];
 
+/*
 _i = _i		+ ["NLAW_F"];  //nlaw
 _u = _u		+ [3];
-_p = _p		+ [150];
-
+_p = _p		+ [300];
+*/
 _i = _i		+ ["Titan_AA"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [400];
 
 _i = _i		+ ["Titan_AP"];
 _u = _u		+ [5];
-_p = _p		+ [100];
+_p = _p		+ [500];
 
 _i = _i		+ ["Titan_AT"];
 _u = _u		+ [5];
-_p = _p		+ [120];
+_p = _p		+ [1000];
 
 _i = _i		+ ["B_IR_Grenade"];
 _u = _u		+ [2];
@@ -399,17 +400,19 @@ _i = _i		+ ["srifle_LRR_F"];  //M320 LRR
 _u = _u		+ [4];
 _p = _p		+ [1100];
 
+/*
 _i = _i		+ ["launch_NLAW_F"];
 _u = _u		+ [3];
 _p = _p		+ [1000];
+*/
 
 _i = _i		+ ["launch_B_Titan_F"];
 _u = _u		+ [4];
-_p = _p		+ [2500];
+_p = _p		+ [6000];
 
 _i = _i		+ ["launch_B_Titan_short_F"];
 _u = _u		+ [5];
-_p = _p		+ [3000];
+_p = _p		+ [8000];
 
 _i = _i		+ ["hgun_P07_F"];  
 _u = _u		+ [0];
@@ -708,8 +711,6 @@ _i = _i		+ ["B_GMG_01_support_F"];
 _u = _u		+ [3];
 _p = _p		+ [500];
 
-
-if !(MADE_FOR_STRATIS) then {
 _i = _i		+ ["B_Mortar_01_support_F"];
 _u = _u		+ [3];
 _p = _p		+ [100];
@@ -717,7 +718,7 @@ _p = _p		+ [100];
 _i = _i		+ ["B_Mortar_01_weapon_F"];
 _u = _u		+ [3];
 _p = _p	    + [15000];
-};
+
 //--- Glasses
 
 _i = _i		+ ["G_Combat"];
@@ -1207,8 +1208,8 @@ _p = _p		+ [20];
 
 //--- Items
 _i = _i		+ ["NVGoggles"];
-_u = _u		+ [0];
-_p = _p		+ [150];
+_u = _u		+ [1];
+_p = _p		+ [450];
 
 _i = _i		+ ["Binocular"];
 _u = _u		+ [0];
@@ -1216,12 +1217,12 @@ _p = _p		+ [5];
 
 _i = _i		+ ["Rangefinder"];
 _u = _u		+ [0];
-_p = _p		+ [50];
+_p = _p		+ [250];
 
 
 _i = _i		+ ["Laserdesignator"];
 _u = _u		+ [2];
-_p = _p		+ [500];
+_p = _p		+ [1500];
 
 _i = _i		+ ["ItemGPS"];
 _u = _u		+ [0];
@@ -1704,10 +1705,6 @@ _i = _i + ["CUP_lmg_L7A2"];
 _u = _u + [4];
 _p = _p + [450];
 
-_i = _i + ["CUP_BAF_L7A2_GPMG"];
-_u = _u + [4];
-_p = _p + [500];
-
 //MG36 Family
 
 _i = _i + ["CUP_arifle_MG36"];
@@ -1715,11 +1712,7 @@ _u = _u + [1];
 _p = _p + [350];
 
 _i = _i + ["CUP_arifle_MG36_camo"];
-_u = _u + [1];
-_p = _p + [350];
-
-_i = _i + ["CUP_MG36"];
-_u = _u + [1];
+_u = _u + [1];0
 _p = _p + [350];
 
 _i = _i + ["CUP_MG36_camo"];
@@ -1732,41 +1725,14 @@ _i = _i + ["CUP_lmg_M249"];
 _u = _u + [3];
 _p = _p + [350];
 
-_i = _i + ["CUP_M249"];
-_u = _u + [3];
-_p = _p + [350];
 
 //M240 Family
 	
-_i = _i + ["CUP_lmg_M240"];
-_u = _u + [4];
-_p = _p + [450];
-
-_i = _i + ["CUP_M240"];
-_u = _u + [4];
-_p = _p + [450];
-
-_i = _i + ["CUP_lmg_m249_SQuantoon"];
-_u = _u + [3];
-_p = _p + [450];
-
-_i = _i + ["CUP_lmg_m249_pip1"];
-_u = _u + [3];
-_p = _p + [450];
-
 _i = _i + ["CUP_lmg_m249_pip3"];
 _u = _u + [3];
 _p = _p + [450];
 
-_i = _i + ["CUP_lmg_m249_pip4"];
-_u = _u + [3];
-_p = _p + [450];
-
 _i = _i + ["CUP_lmg_M249_E2"];
-_u = _u + [3];
-_p = _p + [450];
-
-_i = _i + ["CUP_lmg_m249_pip2"];
 _u = _u + [3];
 _p = _p + [450];
 
@@ -1816,10 +1782,6 @@ _i = _i + ["CUP_srifle_M14"];
 _u = _u + [3];
 _p = _p + [250];
 
-_i = _i + ["CUP_DMR"];
-_u = _u + [3];
-_p = _p + [250];
-
 
 //MK24 Family
 
@@ -1835,9 +1797,6 @@ _i = _i + ["CUP_srifle_M24_ghillie"];
 _u = _u + [3];
 _p = _p + [260];
 
-_i = _i + ["CUP_M24"];
-_u = _u + [4];
-_p = _p + [270];
 
 //M40 Family
 
@@ -1845,9 +1804,6 @@ _i = _i + ["CUP_srifle_M40A3"];
 _u = _u + [2];
 _p = _p + [270];
 
-_i = _i + ["CUP_M40A3"];
-_u = _u + [2];
-_p = _p + [270];
 
 //M110 Family
 
@@ -1861,9 +1817,6 @@ _i = _i + ["CUP_srifle_LeeEnfield"];
 _u = _u + [0];
 _p = _p + [10];
 
-_i = _i + ["CUP_LeeEnfield"];
-_u = _u + [0];
-_p = _p + [10];
 
 //AS50 Family
 
@@ -1886,9 +1839,6 @@ _i = _i + ["CUP_sgun_AA12"];
 _u = _u + [2];
 _p = _p + [200];
 
-_i = _i + ["CUP_AA12_PMC"];
-_u = _u + [2];
-_p = _p + [200];
 
 //M1014 .50 SR Family
 
@@ -1916,9 +1866,6 @@ _i = _i + ["CUP_MP5SD"];
 _u = _u + [0];
 _p = _p + [30];
 
-_i = _i + ["CUP_MP5A5"];
-_u = _u + [0];
-_p = _p + [30];
 
 //Handguns
 
@@ -1944,10 +1891,11 @@ _i = _i + ["CUP_hgun_M9"];
 _u = _u + [1];
 _p = _p + [10];
 
+/*
 _i = _i + ["CUP_M9"];
 _u = _u + [1];
 _p = _p + [10];
-
+*/
 //UZI Family
 
 _i = _i + ["CUP_hgun_MicroUzi"];
@@ -1993,7 +1941,7 @@ _p = _p + [200];
 		
 _i = _i + ["CUP_launch_FIM92Stinger"];
 _u = _u + [2];
-_p = _p + [1500];
+_p = _p + [2500];
 
 //Anti-Tank
 		
@@ -2006,7 +1954,7 @@ _p = _p + [800];
 _i = _i + ["CUP_launch_MAAWS_Scope"];
 _u = _u + [1];
 _p = _p + [950];
-
+/*
 _i = _i + ["CUP_MAAWS"];
 _u = _u + [1];
 _p = _p + [800];
@@ -2016,21 +1964,21 @@ _p = _p + [800];
 _i = _i + ["CUP_launch_NLAW"];
 _u = _u + [3];
 _p = _p + [1000];
-
+*/
 _i = _i + ["CUP_BAF_NLAW_Launcher"];
 _u = _u + [3];
-_p = _p + [1000];
+_p = _p + [3000];
 
 //FGM-148 Javelin Family
 
 _i = _i + ["CUP_launch_Javelin"];
 _u = _u + [4];
-_p = _p + [2500];
-
+_p = _p + [7000];
+/*
 _i = _i + ["CUP_Javelin"];
 _u = _u + [4];
 _p = _p + [2500];
-
+*/
 //MK153 SMAW Family
 
 _i = _i + ["CUP_launch_Mk153Mod0"];
@@ -2041,9 +1989,6 @@ _i = _i + ["CUP_launch_Mk153Mod0_SMAWOptics"];
 _u = _u + [2];
 _p = _p + [1100];
 
-_i = _i + ["CUP_SMAW"];
-_u = _u + [2];
-_p = _p + [900];
 
 //M136 AT-4 Family
 
@@ -2051,35 +1996,11 @@ _i = _i + ["CUP_launch_M136"];
 _u = _u + [0];
 _p = _p + [500];
 
+/*
 _i = _i + ["CUP_M136"];
 _u = _u + [0];
 _p = _p + [500];
-
-//---Caliber 5.45x39mm
-
-_i = _i		+ ["CUP_30Rnd_545x39_AK_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["CUP_30Rnd_TE1_White_Tracer_545x39_AK_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+*/
 
 
 //---Caliber 5.56x45mm
@@ -2183,28 +2104,6 @@ _i = _i		+ ["CUP_10x_303_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-
-//---Caliber 7.62x39mm
-
-_i = _i		+ ["CUP_30Rnd_Sa58_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["CUP_30Rnd_Sa58_M_TracerG"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["CUP_30Rnd_Sa58_M_TracerR"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["CUP_30Rnd_Sa58_M_TracerY"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
-_i = _i		+ ["CUP_30Rnd_762x39_AK47_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
 
 
 //---Caliber 7.62x51mm
@@ -2466,10 +2365,11 @@ _i = _i		+ ["CUP_6Rnd_45ACP_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
+/*
 _i = _i		+ ["CUP_7Rnd_45ACP_1911"];
 _u = _u		+ [0];
 _p = _p		+ [10];
-
+*/
 
 //---Caliber 12.7x99mm
 
@@ -2732,7 +2632,7 @@ _p = _p		+ [300];
 _i = _i		+ ["CUP_MineE_M"];
 _u = _u		+ [1];
 _p = _p		+ [300];
-
+/*
 _i = _i		+ ["CUP_PipeBomb_M"];
 _u = _u		+ [1];
 _p = _p		+ [300];
@@ -2752,93 +2652,45 @@ _p = _p		+ [300];
 _i = _i		+ ["CUP_IED_V4_M"];
 _u = _u		+ [1];
 _p = _p		+ [300];
-
+*/
 
 //--- Rockets Bombs
 
-_i = _i		+ ["CUP_Strela_2_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
 _i = _i		+ ["CUP_Stinger_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_Igla_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
+_u = _u		+ [2];
+_p = _p		+ [300];
 
 _i = _i		+ ["CUP_Javelin_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
+_u = _u		+ [4];
+_p = _p		+ [800];
 
 _i = _i		+ ["CUP_M136_M"];
 _u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_Dragon_EP1_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
+_p = _p		+ [50];
 
 _i = _i		+ ["CUP_MAAWS_HEDP_M"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [150];
 
 _i = _i		+ ["CUP_MAAWS_HEAT_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_AT13_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
+_u = _u		+ [1];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_NLAW_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_RPG18_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_PG7V_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_PG7VL_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_PG7VR_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_OG7_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
+_u = _u		+ [3];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_SMAW_HEAA_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
+_u = _u		+ [2];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_SMAW_HEDP_M"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [150];
 
-_i = _i		+ ["CUP_PG9_AT_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_OG9_HE_M"];
-_u = _u		+ [0];
-_p = _p		+ [150];
 
 //--CUP Attachments
 
-//--Kobra Optics
-
-_i = _i		+ ["CUP_optic_Kobra"];
-_u = _u		+ [2];
-_p = _p		+ [20];
 
 
 //--Holo Optics
@@ -2946,45 +2798,34 @@ _p = _p		+ [150];
 
 _i = _i		+ ["CUP_optic_CWS"];
 _u = _u		+ [3];
-_p = _p		+ [150];
-
-
-//--PSO Optics
-
-_i = _i		+ ["CUP_optic_PSO_1"];
-_u = _u		+ [1];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_optic_PSO_3"];
-_u = _u		+ [4];
-_p = _p		+ [150];
+_p = _p		+ [300];
 
 
 //--DMR Sniper Optics
 
 _i = _i		+ ["CUP_optic_SB_3_12x50_PMII"];
 _u = _u		+ [4];
-_p = _p		+ [200];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4"];
 _u = _u		+ [4];
-_p = _p		+ [200];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_optic_Leupold_VX3"];
 _u = _u		+ [4];
-_p = _p		+ [200];
+_p = _p		+ [800];
 
 _i = _i		+ ["CUP_optic_LeupoldM3LR"];
 _u = _u		+ [4];
-_p = _p		+ [200];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_10x40_LRT_Desert"];
 _u = _u		+ [4];
-_p = _p		+ [200];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_10x40_LRT_Woodland"];
 _u = _u		+ [4];
-_p = _p		+ [200];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_CQ_T"];
 _u = _u		+ [4];
@@ -2993,11 +2834,6 @@ _p = _p		+ [200];
 _i = _i		+ ["CUP_optic_LeupoldMk4_MRT_tan"];
 _u = _u		+ [4];
 _p = _p		+ [200];
-
-_i = _i		+ ["CUP_optic_PechenegScope"];
-_u = _u		+ [4];
-_p = _p		+ [200];
-
 
 //--Nightvision TWS Optics
 
@@ -3029,11 +2865,11 @@ _p = _p		+ [1000];
 //--Launcher Optics
 
 _i = _i		+ ["CUP_optic_MAAWS_Scope"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_SMAW_Scope"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [100];
 
 
@@ -3109,15 +2945,15 @@ _p = _p		+ [600];
 
 _i = _i		+ ["CUP_muzzleFlash2SCAR_L"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_mfsup_SCAR_L"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_mfsup_SCAR_H"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [200];
 
 
 //--Side Attachment
@@ -3148,27 +2984,27 @@ _p = _p		+ [10];
 
 _i = _i		+ ["CUP_acc_Flashlight"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [50];
 
 _i = _i		+ ["CUP_acc_Flashlight_wdl"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [50];
 
 _i = _i		+ ["CUP_acc_Flashlight_desert"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [50];
 
 _i = _i		+ ["CUP_acc_XM8_light_module"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [50];
 
 _i = _i		+ ["CUP_acc_CZ_M3X"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [50];
 
 _i = _i		+ ["CUP_acc_Glock17_Flashlight"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [50];
 
 //--Uniforms
 
@@ -3642,19 +3478,19 @@ _p = _p		+ [10];
 
 _i = _i		+ ["CUP_NVG_PVS7"];
 _u = _u		+ [0];
-_p = _p		+ [150];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_SOFLAM"];
 _u = _u		+ [2];
-_p = _p		+ [400];
+_p = _p		+ [800];
 
 _i = _i		+ ["CUP_LRTV"];
 _u = _u		+ [2];
-_p = _p		+ [400];
+_p = _p		+ [700];
 
 _i = _i		+ ["CUP_Vector21Nite"];
 _u = _u		+ [1];
-_p = _p		+ [150];
+_p = _p		+ [600];
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
 

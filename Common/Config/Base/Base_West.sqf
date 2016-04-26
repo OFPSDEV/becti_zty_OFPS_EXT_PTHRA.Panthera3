@@ -400,12 +400,13 @@ _prices = _prices 			+ [5000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
+/*  //Weird reload time happening, 8000sec
 _headers = _headers 		+ ["M252 81mm mortar"];
 _classes = _classes 		+ ["CUP_B_M252_USMC"];
 _prices = _prices 			+ [15000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
-
+*/
 _headers = _headers 		+ ["C-RAM Phalanx"];
 _classes = _classes 		+ ["C_at_phalanx_35AI"];
 _prices = _prices 			+ [80000];
