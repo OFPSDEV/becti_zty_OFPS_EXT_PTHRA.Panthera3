@@ -117,11 +117,19 @@ _p = _p		+ [400];
 
 _i = _i		+ ["Titan_AP"];
 _u = _u		+ [5];
+<<<<<<< HEAD
 _p = _p		+ [500];
 
 _i = _i		+ ["Titan_AT"];
 _u = _u		+ [5];
 _p = _p		+ [1000];
+=======
+_p = _p		+ [300];
+
+_i = _i		+ ["Titan_AT"];
+_u = _u		+ [5];
+_p = _p		+ [350];
+>>>>>>> origin/master
 
 _i = _i		+ ["16Rnd_9x21_Mag"];  //Rook 40
 _u = _u		+ [0];
@@ -380,7 +388,11 @@ _p = _p		+ [150];
 
 _i = _i		+ ["launch_RPG32_F"];
 _u = _u		+ [2];
+<<<<<<< HEAD
 _p = _p		+ [1500];
+=======
+_p = _p		+ [300];
+>>>>>>> origin/master
 
 _i = _i		+ ["launch_O_Titan_F"];
 _u = _u		+ [4];
@@ -388,7 +400,11 @@ _p = _p		+ [6000];
 
 _i = _i		+ ["launch_O_Titan_short_F"];
 _u = _u		+ [5];
+<<<<<<< HEAD
 _p = _p		+ [8000];
+=======
+_p = _p		+ [2500];
+>>>>>>> origin/master
 
 _i = _i		+ ["hgun_Rook40_F"];
 _u = _u		+ [1];
@@ -1653,7 +1669,11 @@ _p = _p + [2500];
 
 _i = _i + ["CUP_launch_Metis"];
 _u = _u + [4];
+<<<<<<< HEAD
 _p = _p + [6000];
+=======
+_p = _p + [2000];
+>>>>>>> origin/master
 
 
 //RPG-7 Family
@@ -1667,7 +1687,11 @@ _p = _p + [700];
 
 _i = _i + ["CUP_launch_RPG18"];
 _u = _u + [0];
+<<<<<<< HEAD
 _p = _p + [400];
+=======
+_p = _p + [50];
+>>>>>>> origin/master
 
 //---Caliber 5.45x39mm
 
@@ -2266,13 +2290,27 @@ _u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ ["CUP_Igla_M"];
+<<<<<<< HEAD
 _u = _u		+ [2];
 _p = _p		+ [350];
+=======
+_u = _u		+ [0];
+_p = _p		+ [150];
+
+_i = _i		+ ["CUP_Javelin_M"];
+_u = _u		+ [0];
+_p = _p		+ [350];
+
+_i = _i		+ ["CUP_M136_M"];
+_u = _u		+ [0];
+_p = _p		+ [150];
+>>>>>>> origin/master
 
 _i = _i		+ ["CUP_Dragon_EP1_M"];
 _u = _u		+ [0];
 _p = _p		+ [550];
 
+<<<<<<< HEAD
 _i = _i		+ ["CUP_AT13_M"];  //metis missiles
 _u = _u		+ [4];
 _p = _p		+ [800];
@@ -2280,6 +2318,27 @@ _p = _p		+ [800];
 _i = _i		+ ["CUP_RPG18_M"];
 _u = _u		+ [0];
 _p = _p		+ [50];
+=======
+_i = _i		+ ["CUP_MAAWS_HEDP_M"];
+_u = _u		+ [0];
+_p = _p		+ [150];
+
+_i = _i		+ ["CUP_MAAWS_HEAT_M"];
+_u = _u		+ [0];
+_p = _p		+ [150];
+
+_i = _i		+ ["CUP_AT13_M"];
+_u = _u		+ [0];
+_p = _p		+ [200];
+
+_i = _i		+ ["CUP_NLAW_M"];
+_u = _u		+ [0];
+_p = _p		+ [200];
+
+_i = _i		+ ["CUP_RPG18_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+>>>>>>> origin/master
 
 _i = _i		+ ["CUP_PG7V_M"];
 _u = _u		+ [1];

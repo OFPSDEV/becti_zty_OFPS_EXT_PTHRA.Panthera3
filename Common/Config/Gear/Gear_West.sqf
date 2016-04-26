@@ -127,19 +127,32 @@ _p = _p		+ [2];
 /*
 _i = _i		+ ["NLAW_F"];  //nlaw
 _u = _u		+ [3];
+<<<<<<< HEAD
 _p = _p		+ [300];
 */
+=======
+_p = _p		+ [200];
+
+>>>>>>> origin/master
 _i = _i		+ ["Titan_AA"];
 _u = _u		+ [4];
 _p = _p		+ [400];
 
 _i = _i		+ ["Titan_AP"];
 _u = _u		+ [5];
+<<<<<<< HEAD
 _p = _p		+ [500];
 
 _i = _i		+ ["Titan_AT"];
 _u = _u		+ [5];
 _p = _p		+ [1000];
+=======
+_p = _p		+ [300];
+
+_i = _i		+ ["Titan_AT"];
+_u = _u		+ [5];
+_p = _p		+ [350];
+>>>>>>> origin/master
 
 _i = _i		+ ["B_IR_Grenade"];
 _u = _u		+ [2];
@@ -412,7 +425,11 @@ _p = _p		+ [6000];
 
 _i = _i		+ ["launch_B_Titan_short_F"];
 _u = _u		+ [5];
+<<<<<<< HEAD
 _p = _p		+ [8000];
+=======
+_p = _p		+ [2500];
+>>>>>>> origin/master
 
 _i = _i		+ ["hgun_P07_F"];  
 _u = _u		+ [0];
@@ -1994,13 +2011,43 @@ _p = _p + [1100];
 
 _i = _i + ["CUP_launch_M136"];
 _u = _u + [0];
-_p = _p + [500];
+_p = _p + [50];
 
 /*
 _i = _i + ["CUP_M136"];
 _u = _u + [0];
+<<<<<<< HEAD
 _p = _p + [500];
 */
+=======
+_p = _p + [50];
+
+//---Caliber 5.45x39mm
+
+_i = _i		+ ["CUP_30Rnd_545x39_AK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_TE1_White_Tracer_545x39_AK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+>>>>>>> origin/master
 
 
 //---Caliber 5.56x45mm
@@ -2661,6 +2708,7 @@ _u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ ["CUP_Javelin_M"];
+<<<<<<< HEAD
 _u = _u		+ [4];
 _p = _p		+ [800];
 
@@ -2688,6 +2736,70 @@ _i = _i		+ ["CUP_SMAW_HEDP_M"];
 _u = _u		+ [2];
 _p = _p		+ [150];
 
+=======
+_u = _u		+ [0];
+_p = _p		+ [350];
+
+_i = _i		+ ["CUP_M136_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_Dragon_EP1_M"];
+_u = _u		+ [0];
+_p = _p		+ [150];
+
+_i = _i		+ ["CUP_MAAWS_HEDP_M"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_MAAWS_HEAT_M"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_AT13_M"];
+_u = _u		+ [0];
+_p = _p		+ [200];
+
+_i = _i		+ ["CUP_NLAW_M"];
+_u = _u		+ [0];
+_p = _p		+ [200];
+
+_i = _i		+ ["CUP_RPG18_M"];
+_u = _u		+ [0];
+_p = _p		+ [50];
+
+_i = _i		+ ["CUP_PG7V_M"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_PG7VL_M"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_PG7VR_M"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_OG7_M"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_SMAW_HEAA_M"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_SMAW_HEDP_M"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_PG9_AT_M"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_OG9_HE_M"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+>>>>>>> origin/master
 
 //--CUP Attachments
 
