@@ -415,7 +415,7 @@ CTI_BASE_HQ_REPAIR_TIME = 60; //--- The time needed to repair the HQ
 CTI_BASE_NOOBPROTECTION = 1; //--- Make structures invulnerable to friendly fire
 
 //--- Base: Purchase range
-CTI_BASE_GEAR_FOB_RANGE = 20; //--- Determine how far a player has to be from a FOB to access the Gear Menu
+CTI_BASE_GEAR_FOB_RANGE = 5; //--- Determine how far a player has to be from a FOB to access the Gear Menu
 CTI_BASE_GEAR_RANGE = 500; //--- Determine how far a player has to be from a Barracks to access the Gear Menu
 CTI_BASE_PURCHASE_UNITS_RANGE = 500; //--- Determine how far a player has to be from a factory to access the Factory Menu without CC
 CTI_BASE_PURCHASE_UNITS_RANGE_CC = 7500; //--- Determine how far a player has to be from a factory to access the Factory Menu with CC
