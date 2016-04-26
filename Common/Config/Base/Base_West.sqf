@@ -359,13 +359,13 @@ _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AT Defense"];
 _classes = _classes 		+ ["B_static_AT_F"];
-_prices = _prices 			+ [3000];
+_prices = _prices 			+ [8000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AA Defense"];
 _classes = _classes 		+ ["B_static_AA_F"];
-_prices = _prices 			+ [2000];
+_prices = _prices 			+ [6000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 if !(MADE_FOR_STRATIS) then {
