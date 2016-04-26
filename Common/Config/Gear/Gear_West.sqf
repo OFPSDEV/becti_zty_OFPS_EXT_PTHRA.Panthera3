@@ -127,32 +127,24 @@ _p = _p		+ [2];
 /*
 _i = _i		+ ["NLAW_F"];  //nlaw
 _u = _u		+ [3];
-<<<<<<< HEAD
 _p = _p		+ [300];
 */
-=======
-_p = _p		+ [200];
 
->>>>>>> origin/master
 _i = _i		+ ["Titan_AA"];
 _u = _u		+ [4];
 _p = _p		+ [400];
 
 _i = _i		+ ["Titan_AP"];
 _u = _u		+ [5];
-<<<<<<< HEAD
 _p = _p		+ [500];
 
 _i = _i		+ ["Titan_AT"];
 _u = _u		+ [5];
 _p = _p		+ [1000];
-=======
-_p = _p		+ [300];
 
 _i = _i		+ ["Titan_AT"];
 _u = _u		+ [5];
 _p = _p		+ [350];
->>>>>>> origin/master
 
 _i = _i		+ ["B_IR_Grenade"];
 _u = _u		+ [2];
@@ -425,11 +417,8 @@ _p = _p		+ [6000];
 
 _i = _i		+ ["launch_B_Titan_short_F"];
 _u = _u		+ [5];
-<<<<<<< HEAD
 _p = _p		+ [8000];
-=======
-_p = _p		+ [2500];
->>>>>>> origin/master
+
 
 _i = _i		+ ["hgun_P07_F"];  
 _u = _u		+ [0];
@@ -2047,7 +2036,7 @@ _p = _p		+ [10];
 _i = _i		+ ["CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
->>>>>>> origin/master
+
 
 
 //---Caliber 5.56x45mm
@@ -2799,7 +2788,7 @@ _p = _p		+ [100];
 _i = _i		+ ["CUP_OG9_HE_M"];
 _u = _u		+ [0];
 _p = _p		+ [100];
->>>>>>> origin/master
+
 
 //--CUP Attachments
 
