@@ -418,7 +418,7 @@ CTI_BASE_NOOBPROTECTION = 1; //--- Make structures invulnerable to friendly fire
 CTI_BASE_GEAR_FOB_RANGE = 5; //--- Determine how far a player has to be from a FOB to access the Gear Menu
 CTI_BASE_GEAR_RANGE = 500; //--- Determine how far a player has to be from a Barracks to access the Gear Menu
 CTI_BASE_PURCHASE_UNITS_RANGE = 500; //--- Determine how far a player has to be from a factory to access the Factory Menu without CC
-CTI_BASE_PURCHASE_UNITS_RANGE_CC = 7500; //--- Determine how far a player has to be from a factory to access the Factory Menu with CC
+CTI_BASE_PURCHASE_UNITS_RANGE_CC = 15000; //--- Determine how far a player has to be from a factory to access the Factory Menu with CC
 
 //--- Base: Workers
 CTI_BASE_WORKERS_BUILD_COEFFICIENT = 2; //--- Worker build speed multiplier (<coefficient> / (<structure build time> / 100)), higher is faster.
