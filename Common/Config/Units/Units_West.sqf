@@ -1617,18 +1617,18 @@ _s = _s + [""];
 _c = _c + ['B_Boat_Armed_01_minigun_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [3000];
+_o = _o + [1500];
 _t = _t + [25];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
 _c = _c + ['C_Boat_Civil_01_police_F'];
 _p = _p + [''];
 _n = _n + [(format ["Respawn Shore Required - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
-_o = _o + [6000];
+_o = _o + [2500];
 _t = _t + [25];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + ["service-medic"];
 
@@ -1662,9 +1662,9 @@ _s = _s + [""];
 _c = _c + ['CUP_B_RHIB2Turret_USMC'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [1500];
+_o = _o + [1000];
 _t = _t + [25];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
