@@ -98,7 +98,7 @@ _headers = _headers 		+ [[CTI_NAVAL, "Naval Yard", "Naval"]];
 _classes = _classes 		+ [["Land_Lighthouse_small_F", "Land_Lighthouse_small_ruins_F"]];
 _prices = _prices 			+ [4000];
 _times = _times 			+ [35];
-_placements = _placements 	+ [[180, 60]];
+_placements = _placements 	+ [[180, 100]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
