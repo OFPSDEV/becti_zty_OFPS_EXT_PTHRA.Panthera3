@@ -27,9 +27,27 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 		["Toolkit", 4],
 		["B_Bergen_sgg", 4]
 	]],
-	["B_MRAP_01_F", [["Toolkit", 2],["firstaidkit", 10],["CUP_30Rnd_556x45_Stanag", 15],["CUP_launch_M136", 5], ["CUP_M136_M", 10]]],
-	["CUP_B_Dingo_CZ_Wdl", [["Toolkit", 2],["firstaidkit", 10],["CUP_30Rnd_556x45_Stanag", 15],["CUP_launch_M136", 5], ["CUP_M136_M", 10]]],
-	["CUP_B_HMMWV_M2_GPK_USA", [["Toolkit", 2],["firstaidkit", 10],["CUP_30Rnd_556x45_Stanag", 15],["CUP_launch_M136", 5], ["CUP_M136_M", 10]]],
+	["B_MRAP_01_F", [
+		["Toolkit", 2],
+		["firstaidkit", 10],
+		["CUP_30Rnd_556x45_Stanag", 15],
+		["CUP_launch_M136", 5],
+		["CUP_M136_M", 10]
+	]],
+	["CUP_B_Dingo_CZ_Wdl", [
+		["Toolkit", 2],
+		["firstaidkit", 10],
+		["CUP_30Rnd_556x45_Stanag", 15],
+		["CUP_launch_M136", 5],
+		["CUP_M136_M", 10]
+	]],
+	["CUP_B_HMMWV_M2_GPK_USA", [
+		["Toolkit", 2],
+		["firstaidkit", 10],
+		["CUP_30Rnd_556x45_Stanag", 15],
+		["CUP_launch_M136", 5],
+		["CUP_M136_M", 10]
+	]]
 	//,	["B_Heli_Transport_01_F", []]
 
 ]];
