@@ -27,7 +27,9 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 		["Toolkit", 4],
 		["B_Kitbag_cbr", 4]
 	]],
-	["O_MRAP_02_F", [	["Toolkit", 1],["firstaidkit", 10],["CUP_30Rnd_762x39_AK47_M", 25],["CUP_launch_RPG18", 5], ["CUP_RPG18_M", 10]]]
+	["O_MRAP_02_F", [	["Toolkit", 1],["firstaidkit", 10],["CUP_30Rnd_762x39_AK47_M", 25],["CUP_launch_RPG18", 5], ["CUP_RPG18_M", 10]]],
+	["OFPS_BRDM2", [	["Toolkit", 1],["firstaidkit", 10],["CUP_30Rnd_762x39_AK47_M", 25],["CUP_launch_RPG18", 5], ["CUP_RPG18_M", 10]]],
+	["OFPS_BTR60", [	["Toolkit", 1],["firstaidkit", 10],["CUP_30Rnd_762x39_AK47_M", 25],["CUP_launch_RPG18", 5], ["CUP_RPG18_M", 10]]],
 	//,	["O_Heli_Light_02_unarmed_F", []]
 ]];
 
