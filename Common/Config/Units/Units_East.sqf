@@ -637,7 +637,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['OFPS_VOD_1'];
+_c = _c + ['CUP_O_GAZ_Vodnik_PK_RU'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [600];
@@ -646,7 +646,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['OFPS_VOD_2'];
+_c = _c + ['CUP_O_GAZ_Vodnik_AGS_RU'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [700];
@@ -655,7 +655,7 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['OFPS_VOD_3'];
+_c = _c + ['CUP_O_GAZ_Vodnik_BPPU_RU'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1000];
@@ -664,7 +664,7 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['OFPS_VOD_4'];
+_c = _c + ['CUP_O_GAZ_Vodnik_MedEvac_RU'];
 _p = _p + [''];
 _n = _n + [(format ["Mobile Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [3000];
@@ -1339,33 +1339,6 @@ _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
 _c = _c + ['O_PAKFA_F'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [70000];
-_t = _t + [20];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
-_c = _c + ['FIR_F14D_IRIAF_OPFOR'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [70000];
-_t = _t + [20];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
-_c = _c + ['FIR_F14D_ENEMY_TYPE_A'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [70000];
-_t = _t + [20];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
-_c = _c + ['FIR_F16C_ENEMY_TYPE_A'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [70000];

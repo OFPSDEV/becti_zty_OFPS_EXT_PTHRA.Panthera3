@@ -110,7 +110,6 @@ _u = _u		+ ['CUP_RG31_M2_OD'];
 _u = _u		+ ['CUP_RG31_Mk19'];
 _u = _u		+ ['CUP_RG31_Mk19_OD'];
 _u = _u		+ ['CUP_RG31E_M2'];
-
 _u = _u		+ ['CUP_B_BAF_Coyote_GMG_D'];
 _u = _u		+ ['CUP_B_BAF_Coyote_L2A1_D'];
 _u = _u		+ ['CUP_B_Mastiff_GMG_GB_D'];
@@ -151,7 +150,6 @@ _u = _u		+ ['CUP_B_M270_HE_USMC'];
 _u = _u		+ ['CUP_B_M2Bradley_USA_D'];
 _u = _u		+ ['CUP_B_M2A3Bradley_USA_D'];
 _u = _u		+ ['CUP_B_M6LineBacker_USA_W'];
-
 _u = _u		+ ['CUP_B_FV432_Bulldog_GB_D'];
 _u = _u		+ ['CUP_B_FV432_Bulldog_GB_D_RWS'];
 _u = _u		+ ['CUP_B_FV510_GB_D_SLAT'];
@@ -195,7 +193,6 @@ _u = _u		+ ['CUP_B_CH53E_USMC'];
 _u = _u		+ ['CUP_B_MH60S_USMC'];
 _u = _u		+ ['CUP_B_SA330_Puma_HC2_BAF'];
 _u = _u		+ ['CUP_B_CH47F_USA'];
-
 _u = _u		+ ['CUP_B_AH64D_MR_USA'];
 _u = _u		+ ['CUP_B_AH64D_AT_USA'];
 _u = _u		+ ['CUP_B_AH1Z'];
@@ -227,12 +224,7 @@ _u = _u		+ ['CUP_B_A10_CAS_USA'];
 _u = _u		+ ['CUP_B_AV8B_CAP_USMC'];
 _u = _u		+ ['CUP_B_F35B_AA_USMC'];
 _u = _u		+ ['CUP_B_GR9_CAP_GB'];
-/*
-_u = _u		+ ['FIR_F15K'];
-_u = _u		+ ['FIR_F15C'];
-_u = _u		+ ['FIR_F16C'];
-_u = _u		+ ['JS_S_FA18X'];
-*/
+
 _u = _u		+ ['usaf_b1b'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
