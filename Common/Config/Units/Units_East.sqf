@@ -678,8 +678,8 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [2500];
 _t = _t + [30];
-_u = _u + [1];
-_f = _f + [CTI_FACTORY_HEAVY];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
 _c = _c + ['O_APC_Tracked_02_cannon_F'];
