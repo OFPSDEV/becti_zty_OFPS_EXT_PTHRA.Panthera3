@@ -34,10 +34,10 @@ _t=_t+			[[50*CTI_UPGRADE_RATIO,100*CTI_UPGRADE_RATIO,150*CTI_UPGRADE_RATIO]];
 
 _l=_l+				[["Factory: Naval Factory", "Unlock Better Naval Units"]];
 _a=_a	+			[true];
-_c=_c +				[[10000]];
-_lev=_lev+			[1];
-_lin=_lin+	[[[CTI_UPGRADE_LIGHT,1]]];
-_t=_t+			[[20*CTI_UPGRADE_RATIO]];
+_c=_c +				[[10000,40000]];
+_lev=_lev+			[2];
+_lin=_lin+	[[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]]];
+_t=_t+			[[20*CTI_UPGRADE_RATIO,100*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Factory: Aircraft Factory", "Unlock better aircraft units"]];
 _a=_a	+			[true];

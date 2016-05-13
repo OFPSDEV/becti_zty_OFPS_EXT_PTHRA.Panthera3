@@ -1583,7 +1583,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1500];
 _t = _t + [25];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
@@ -1592,7 +1592,7 @@ _p = _p + [''];
 _n = _n + [(format ["Respawn Shore Required - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [2500];
 _t = _t + [25];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + ["service-medic"];
 
@@ -1628,7 +1628,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1000];
 _t = _t + [25];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
@@ -1644,18 +1644,18 @@ _s = _s + [""];
 _c = _c + ['sfp_rbb_norrkoping'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [30000];
+_o = _o + [40000];
 _t = _t + [25];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
 _c = _c + ['OFPS_Frigate_Blu'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [80000];
+_o = _o + [100000];
 _t = _t + [25];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + ["service-ammotruck"];
 
