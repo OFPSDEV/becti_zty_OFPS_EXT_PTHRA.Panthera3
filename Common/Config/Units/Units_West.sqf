@@ -1479,15 +1479,6 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-_c = _c + ['CUP_B_GR9_CAP_GB'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [50000];
-_t = _t + [20];
-_u = _u + [2];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
 _c = _c + ['CUP_USMC_MQ9'];
 _p = _p + [''];
 _n = _n + [''];
