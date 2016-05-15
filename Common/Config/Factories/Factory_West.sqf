@@ -216,7 +216,11 @@ _u = _u		+ ['CUP_B_CH47F_USA'];
 _u = _u		+ ['CUP_B_AH64D_MR_USA'];
 _u = _u		+ ['CUP_B_AH64D_AT_USA'];
 _u = _u		+ ['CUP_B_AH1Z'];
-_u = _u		+ ["B_Heli_Attack_01_F"];
+_u = _u		+ ["CUP_B_AH1Z_Escort"];
+_u = _u		+ ["CUP_B_AH64D_ES_USA"];
+_u = _u		+ ["CUP_B_AV8B_MK82_USMC"];
+_u = _u		+ ["CUP_B_F35B_LGB_USMC"];
+
 
 _u = _u		+ ['CUP_C_C47_CIV'];
 _u = _u		+ ['CUP_B_C130J_USMC'];
@@ -244,7 +248,7 @@ _u = _u		+ ["B_Plane_CAS_01_F"];
 _u = _u		+ ['CUP_B_A10_CAS_USA'];
 _u = _u		+ ['CUP_B_AV8B_CAP_USMC'];
 _u = _u		+ ['CUP_B_F35B_AA_USMC'];
-_u = _u		+ ['CUP_B_GR9_CAP_GB'];
+_u = _u		+ ['CUP_B_AV8B_GBU12_USMC'];
 
 _u = _u		+ ['usaf_b1b'];
 
