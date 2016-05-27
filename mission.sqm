@@ -138,7 +138,8 @@ addons[]=
 	"sab_alphajet",
 	"sfp_bo105",
 	"sfp_ikv91",
-	"sfp_j12"
+	"sfp_j12",
+	"rhsusf_c_markvsoc"
 };
 randomSeed=12242137;
 class ScenarioData

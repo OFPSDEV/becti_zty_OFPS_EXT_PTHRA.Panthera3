@@ -275,6 +275,7 @@ _u = _u		+ ["B_SDV_01_F"];
 _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
 _u = _u		+ ["sfp_gruppbat"];
+_u = _u		+ ["rhsusf_mkvsoc"];
 _u = _u		+ ["sfp_rbb_norrkoping"];
 _u = _u		+ ["OFPS_Frigate_Blu"];
 
