@@ -1694,7 +1694,6 @@ _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
-_d = _d + [1];
 
 _c = _c + ['sfp_rbb_norrkoping'];
 _p = _p + [''];
