@@ -1214,7 +1214,7 @@ _p = _p + [''];
 _n = _n + ['AV8B Harrier (Rocket Pods)'];
 _o = _o + [30000];
 _t = _t + [50];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
