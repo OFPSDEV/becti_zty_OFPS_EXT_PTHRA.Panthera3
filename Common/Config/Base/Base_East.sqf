@@ -277,6 +277,25 @@ _prices = _prices 			+ [6000];
 _placements = _placements 	+ [[0, 50]];
 _categories = _categories 	+ ["Fortification"];
 
+
+_headers = _headers 		+ ["H-Barrier 10xTall"];
+_classes = _classes 		+ ["Base_WarfareBBarrier10xTall"];
+_prices = _prices 			+ [10];
+_placements = _placements 	+ [[90, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["H-Barrier 10x"];
+_classes = _classes 		+ ["Base_WarfareBBarrier10x"];
+_prices = _prices 			+ [10];
+_placements = _placements 	+ [[90, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Base_WarfareBBarrier5x"];
+_classes = _classes 		+ ["Base_WarfareBBarrier10x"];
+_prices = _prices 			+ [10];
+_placements = _placements 	+ [[90, 7]];
+_categories = _categories 	+ ["Fortification"];
+
 /* DO NOT INTRODUCE INTO GAME W/OUT TESTING, STILL INDESTRUCTABLE AS OF 1.56
 _headers = _headers 		+ ["H-Barrier (Small) (1 Block)"];
 _classes = _classes 		+ ["Land_HBarrier_1_F"];
