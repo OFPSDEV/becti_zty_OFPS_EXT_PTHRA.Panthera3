@@ -1545,6 +1545,7 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
+/* Has some sort of new missle jammer, had to be pulled for balancing.
 _c = _c + ['OFPS_Frigate_CSAT'];
 _p = _p + [''];
 _n = _n + [''];
@@ -1553,6 +1554,6 @@ _t = _t + [25];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + ["service-ammotruck"];
-
+*/
 
 [_side, _faction, _c, _p, _n, _o, _t, _u, _f, _s] call compile preprocessFileLineNumbers "Common\Config\Units\Set_Units.sqf";
