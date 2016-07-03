@@ -1153,14 +1153,6 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-_c = _c + ['B_Heli_Attack_01_F'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [60000];
-_t = _t + [50];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
 
 /*  don't need 2 buzzards anymore
 _c = _c + ['OFPS_BUZZA_B'];
@@ -1204,6 +1196,15 @@ _c = _c + ['CUP_B_AV8B_GBU12_USMC'];
 _p = _p + [''];
 _n = _n + ['AV8B Harrier (GBU)'];
 _o = _o + [40000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['B_Heli_Attack_01_F'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [60000];
 _t = _t + [50];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
