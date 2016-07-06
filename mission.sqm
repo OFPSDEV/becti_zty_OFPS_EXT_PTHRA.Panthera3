@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=202;
+		nextID=204;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8689.0293,693.34351,9466.8486};
-		dir[]={0.73996514,-0.67082483,0.049507998};
-		up[]={0.66932863,0.74161601,0.044781927};
-		aside[]={0.066756301,1.222943e-007,-0.99777174};
+		pos[]={711.43524,38.360001,9680.5039};
+		dir[]={0.31261742,-0.46245468,-0.82970649};
+		up[]={0.16305552,0.88664269,-0.43275926};
+		aside[]={-0.9357838,-1.2735836e-007,-0.35258645};
 	};
 };
 binarizationWanted=0;
@@ -161,11 +161,12 @@ class Mission
 		class Item5
 		{
 			dataType="Marker";
-			position[]={8557.0869,22.941217,9127.3047};
+			position[]={8622.1484,7.0893555,8801.9971};
 			name="HELO_START_1";
 			type="Empty";
 			colorName="ColorGreen";
 			id=5;
+			atlOffset=-5.4197369;
 		};
 		class Item6
 		{
@@ -215,7 +216,7 @@ class Mission
 			type="Empty";
 			colorName="ColorGreen";
 			id=10;
-			atlOffset=112.97934;
+			atlOffset=112.97935;
 		};
 		class Item11
 		{
@@ -230,12 +231,12 @@ class Mission
 		class Item12
 		{
 			dataType="Marker";
-			position[]={8799.4922,123.7229,9156.3662};
+			position[]={8799.4922,123.7229,9120.2207};
 			name="HELO_START_7";
 			type="Empty";
 			colorName="ColorGreen";
 			id=12;
-			atlOffset=92.438934;
+			atlOffset=100.81621;
 		};
 		class Item13
 		{
@@ -654,12 +655,12 @@ class Mission
 		class Item56
 		{
 			dataType="Marker";
-			position[]={8044.9497,46.203484,9263.5674};
+			position[]={4670.3955,54.990723,5966.5981};
 			name="HELO_START_51";
 			type="Empty";
 			colorName="ColorGreen";
 			id=56;
-			atlOffset=-20.57695;
+			atlOffset=-48.318871;
 		};
 		class Item57
 		{
@@ -683,23 +684,13 @@ class Mission
 		class Item59
 		{
 			dataType="Marker";
-			position[]={499.56848,-190.99652,30213.908};
-			name="CTI_HELP";
-			type="Empty";
-			colorName="ColorUNKNOWN";
-			id=59;
-			atlOffset=-161.22652;
-		};
-		class Item60
-		{
-			dataType="Marker";
 			position[]={9977.917,192.707,351.88025};
 			name="CTI_TUTORIAL";
 			type="Empty";
 			id=60;
 			atlOffset=184.97701;
 		};
-		class Item61
+		class Item60
 		{
 			dataType="Object";
 			class PositionInfo
@@ -719,7 +710,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=3.8146973e-006;
 		};
-		class Item62
+		class Item61
 		{
 			dataType="Object";
 			class PositionInfo
@@ -737,7 +728,7 @@ class Mission
 			id=63;
 			type="FlagPole_F";
 		};
-		class Item63
+		class Item62
 		{
 			dataType="Object";
 			class PositionInfo
@@ -749,14 +740,14 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this, ""Airbase Boriana"", resistance, 550] execVM ""Common\Init\Init_Location.sqf""";
+				init="nullReturn = [this, ""Airbase Boriana"", resistance, 500] execVM ""Common\Init\Init_Location.sqf""";
 				name="Town2";
 			};
 			id=64;
 			type="FlagPole_F";
 			atlOffset=-4.7683716e-007;
 		};
-		class Item64
+		class Item63
 		{
 			dataType="Object";
 			class PositionInfo
@@ -774,25 +765,26 @@ class Mission
 			id=65;
 			type="FlagPole_F";
 		};
-		class Item65
+		class Item64
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={-3115.312,3.6528034,7214.5449};
+				position[]={751.323,17.336803,9558.4199};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this, ""Kalochori"", resistance, 150] execVM ""Common\Init\Init_Location.sqf""";
+				init="nullReturn = [this, ""Airport Vatra"", resistance, 450] execVM ""Common\Init\Init_Location.sqf""";
 				name="Town4";
 			};
 			id=66;
 			type="FlagPole_F";
-			atlOffset=29.445999;
+			atlOffset=-9.5367432e-007;
 		};
-		class Item66
+		class Item65
 		{
 			dataType="Object";
 			class PositionInfo
@@ -805,13 +797,13 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this, ""Lighthouse Point"", resistance, 300] execVM ""Common\Init\Init_Location.sqf""";
+				init="nullReturn = [this, ""Lighthouse Point"", resistance, 250] execVM ""Common\Init\Init_Location.sqf""";
 				name="Town5";
 			};
 			id=67;
 			type="FlagPole_F";
 		};
-		class Item67
+		class Item66
 		{
 			dataType="Object";
 			class PositionInfo
@@ -829,7 +821,7 @@ class Mission
 			id=68;
 			type="FlagPole_F";
 		};
-		class Item68
+		class Item67
 		{
 			dataType="Object";
 			class PositionInfo
@@ -847,7 +839,7 @@ class Mission
 			id=69;
 			type="FlagPole_F";
 		};
-		class Item69
+		class Item68
 		{
 			dataType="Object";
 			class PositionInfo
@@ -865,7 +857,7 @@ class Mission
 			id=70;
 			type="FlagPole_F";
 		};
-		class Item70
+		class Item69
 		{
 			dataType="Object";
 			class PositionInfo
@@ -883,7 +875,7 @@ class Mission
 			id=71;
 			type="FlagPole_F";
 		};
-		class Item71
+		class Item70
 		{
 			dataType="Object";
 			class PositionInfo
@@ -896,13 +888,13 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this, ""Volkovo Airstrip"", resistance, 400,""Town20""] execVM ""Common\Init\Init_Location.sqf""";
+				init="nullReturn = [this, ""Volkovo Airstrip"", resistance, 300,""Town20""] execVM ""Common\Init\Init_Location.sqf""";
 				name="Town10";
 			};
 			id=72;
 			type="FlagPole_F";
 		};
-		class Item72
+		class Item71
 		{
 			dataType="Object";
 			class PositionInfo
@@ -922,7 +914,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item73
+		class Item72
 		{
 			dataType="Object";
 			class PositionInfo
@@ -940,7 +932,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=55.438;
 		};
-		class Item74
+		class Item73
 		{
 			dataType="Object";
 			class PositionInfo
@@ -957,8 +949,9 @@ class Mission
 			};
 			id=75;
 			type="FlagPole_F";
+			atlOffset=9.5367432e-007;
 		};
-		class Item75
+		class Item74
 		{
 			dataType="Object";
 			class PositionInfo
@@ -977,7 +970,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=-9.5367432e-007;
 		};
-		class Item76
+		class Item75
 		{
 			dataType="Object";
 			class PositionInfo
@@ -989,13 +982,13 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this, ""Research Lab Nero"", resistance, 200,""Town31""] execVM ""Common\Init\Init_Location.sqf""";
+				init="nullReturn = [this, ""Research Lab Nero"", resistance, 250,""Town31""] execVM ""Common\Init\Init_Location.sqf""";
 				name="Town15";
 			};
 			id=77;
 			type="FlagPole_F";
 		};
-		class Item77
+		class Item76
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1015,7 +1008,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=-1.9073486e-006;
 		};
-		class Item78
+		class Item77
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1035,7 +1028,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=9.5367432e-007;
 		};
-		class Item79
+		class Item78
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1053,7 +1046,7 @@ class Mission
 			id=80;
 			type="FlagPole_F";
 		};
-		class Item80
+		class Item79
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1072,25 +1065,25 @@ class Mission
 			id=81;
 			type="FlagPole_F";
 		};
-		class Item81
+		class Item80
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={780.94598,17.336803,9444.668};
+				position[]={-3096.7781,3.9768047,7221.626};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this, ""Airport Vatra"", resistance, 550] execVM ""Common\Init\Init_Location.sqf""";
+				init="nullReturn = [this, ""no town"", resistance, 500] execVM ""Common\Init\Init_Location.sqf""";
 				name="Town20";
 			};
 			id=82;
 			type="FlagPole_F";
+			atlOffset=29.77;
 		};
-		class Item82
+		class Item81
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1109,7 +1102,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=-4.7683716e-007;
 		};
-		class Item83
+		class Item82
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1127,7 +1120,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=0.51599979;
 		};
-		class Item84
+		class Item83
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1145,7 +1138,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=53.360001;
 		};
-		class Item85
+		class Item84
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1157,14 +1150,14 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this, ""East Docks"", resistance, 170] execVM ""Common\Init\Init_Location.sqf""";
+				init="nullReturn = [this, ""East Docks"", resistance, 200] execVM ""Common\Init\Init_Location.sqf""";
 				name="Town24";
 			};
 			id=86;
 			type="FlagPole_F";
-			atlOffset=0.25200009;
+			atlOffset=0.25199986;
 		};
-		class Item86
+		class Item85
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1184,7 +1177,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=4.7683716e-007;
 		};
-		class Item87
+		class Item86
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1202,7 +1195,7 @@ class Mission
 			id=88;
 			type="FlagPole_F";
 		};
-		class Item88
+		class Item87
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1221,7 +1214,7 @@ class Mission
 			id=89;
 			type="FlagPole_F";
 		};
-		class Item89
+		class Item88
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1239,7 +1232,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=72.291992;
 		};
-		class Item90
+		class Item89
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1257,7 +1250,7 @@ class Mission
 			id=91;
 			type="FlagPole_F";
 		};
-		class Item91
+		class Item90
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1277,7 +1270,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=7.6293945e-006;
 		};
-		class Item92
+		class Item91
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1290,13 +1283,14 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this, ""North Docks"", resistance, 225] execVM ""Common\Init\Init_Location.sqf""";
+				init="nullReturn = [this, ""North Docks"", resistance, 200] execVM ""Common\Init\Init_Location.sqf""";
 				name="Town31";
 			};
 			id=93;
 			type="FlagPole_F";
+			atlOffset=2.3841858e-007;
 		};
-		class Item93
+		class Item92
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1316,7 +1310,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=4.7683716e-007;
 		};
-		class Item94
+		class Item93
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1334,7 +1328,7 @@ class Mission
 			id=95;
 			type="FlagPole_F";
 		};
-		class Item95
+		class Item94
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1352,7 +1346,7 @@ class Mission
 			id=96;
 			type="FlagPole_F";
 		};
-		class Item96
+		class Item95
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1371,7 +1365,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item97
+		class Item96
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1389,7 +1383,7 @@ class Mission
 			id=98;
 			type="FlagPole_F";
 		};
-		class Item98
+		class Item97
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1408,7 +1402,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=-4.7683716e-007;
 		};
-		class Item99
+		class Item98
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1426,7 +1420,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=131.401;
 		};
-		class Item100
+		class Item99
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1444,7 +1438,7 @@ class Mission
 			id=101;
 			type="FlagPole_F";
 		};
-		class Item101
+		class Item100
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1462,7 +1456,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=74.68399;
 		};
-		class Item102
+		class Item101
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1482,7 +1476,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item103
+		class Item102
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1498,9 +1492,9 @@ class Mission
 			};
 			id=104;
 			type="FlagPole_F";
-			atlOffset=0.46000004;
+			atlOffset=0.46000099;
 		};
-		class Item104
+		class Item103
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1519,7 +1513,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item105
+		class Item104
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1537,7 +1531,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=27.01;
 		};
-		class Item106
+		class Item105
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1555,7 +1549,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=139.239;
 		};
-		class Item107
+		class Item106
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1567,14 +1561,14 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this, ""ArnoldStein Airport"", resistance, 550] execVM ""Common\Init\Init_Location.sqf""";
+				init="nullReturn = [this, ""ArnoldStein Airport"", resistance, 500] execVM ""Common\Init\Init_Location.sqf""";
 				name="Town46";
 			};
 			id=108;
 			type="FlagPole_F";
 			atlOffset=2.3841858e-007;
 		};
-		class Item108
+		class Item107
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1593,7 +1587,7 @@ class Mission
 			id=109;
 			type="FlagPole_F";
 		};
-		class Item109
+		class Item108
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1611,7 +1605,7 @@ class Mission
 			id=110;
 			type="FlagPole_F";
 		};
-		class Item110
+		class Item109
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1629,7 +1623,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=123.097;
 		};
-		class Item111
+		class Item110
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1648,7 +1642,7 @@ class Mission
 			id=112;
 			type="FlagPole_F";
 		};
-		class Item112
+		class Item111
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1666,7 +1660,7 @@ class Mission
 			id=113;
 			type="FlagPole_F";
 		};
-		class Item113
+		class Item112
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1683,8 +1677,9 @@ class Mission
 			};
 			id=114;
 			type="FlagPole_F";
+			atlOffset=9.5367432e-007;
 		};
-		class Item114
+		class Item113
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1703,7 +1698,7 @@ class Mission
 			id=115;
 			type="FlagPole_F";
 		};
-		class Item115
+		class Item114
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1721,7 +1716,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=32.021;
 		};
-		class Item116
+		class Item115
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1739,7 +1734,7 @@ class Mission
 			type="FlagPole_F";
 			atlOffset=111.57701;
 		};
-		class Item117
+		class Item116
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1757,7 +1752,7 @@ class Mission
 			id=118;
 			type="FlagPole_F";
 		};
-		class Item118
+		class Item117
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -1769,7 +1764,7 @@ class Mission
 			id=123;
 			type="Logic";
 		};
-		class Item119
+		class Item118
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -1782,7 +1777,7 @@ class Mission
 			type="Logic";
 			atlOffset=3.5762787e-007;
 		};
-		class Item120
+		class Item119
 		{
 			dataType="Group";
 			side="East";
@@ -2284,7 +2279,7 @@ class Mission
 			id=125;
 			atlOffset=1.1920929e-006;
 		};
-		class Item121
+		class Item120
 		{
 			dataType="Group";
 			side="West";
@@ -2799,7 +2794,7 @@ class Mission
 			id=151;
 			atlOffset=-9.5367432e-007;
 		};
-		class Item122
+		class Item121
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -2910,7 +2905,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item123
+		class Item122
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3020,7 +3015,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item124
+		class Item123
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3034,7 +3029,7 @@ class Mission
 			type="HeadlessClient_F";
 			atlOffset=179.67683;
 		};
-		class Item125
+		class Item124
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3048,7 +3043,7 @@ class Mission
 			type="HeadlessClient_F";
 			atlOffset=181.9593;
 		};
-		class Item126
+		class Item125
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3062,7 +3057,7 @@ class Mission
 			type="HeadlessClient_F";
 			atlOffset=182.52303;
 		};
-		class Item127
+		class Item126
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3076,7 +3071,7 @@ class Mission
 			type="HeadlessClient_F";
 			atlOffset=178.57237;
 		};
-		class Item128
+		class Item127
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3090,7 +3085,7 @@ class Mission
 			type="HeadlessClient_F";
 			atlOffset=177.9548;
 		};
-		class Item129
+		class Item128
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3102,7 +3097,7 @@ class Mission
 			type="Logic";
 			atlOffset=173.41844;
 		};
-		class Item130
+		class Item129
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3118,7 +3113,7 @@ class Mission
 			type="Land_HelipadEmpty_F";
 			atlOffset=59.604828;
 		};
-		class Item131
+		class Item130
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3134,7 +3129,7 @@ class Mission
 			type="Land_HelipadEmpty_F";
 			atlOffset=19.344006;
 		};
-		class Item132
+		class Item131
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3150,7 +3145,7 @@ class Mission
 			type="Land_HelipadEmpty_F";
 			atlOffset=19.137367;
 		};
-		class Item133
+		class Item132
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3166,7 +3161,7 @@ class Mission
 			type="Land_HelipadEmpty_F";
 			atlOffset=33.564991;
 		};
-		class Item134
+		class Item133
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3181,7 +3176,7 @@ class Mission
 			id=206;
 			type="Land_HelipadEmpty_F";
 		};
-		class Item135
+		class Item134
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3196,6 +3191,15 @@ class Mission
 			id=207;
 			type="Land_HelipadEmpty_F";
 			atlOffset=19.381186;
+		};
+		class Item135
+		{
+			dataType="Marker";
+			position[]={374.92981,-29.77,11455.354};
+			name="CTI_HELP";
+			type="Empty";
+			colorName="ColorUNKNOWN";
+			id=203;
 		};
 	};
 	class Connections
